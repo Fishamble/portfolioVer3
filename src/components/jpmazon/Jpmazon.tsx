@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { animate, initialLeft } from "../../misc/animateValues";
 import JpMazon from "../../assets/images/JpMazon.webp";
+import { animate, initialLeft } from "../../misc/animateValues";
 
 // import TextScrollHighlight from "../MainProject/TextScrollHighlight";
 export default function Jpmazon() {
   return (
-    <motion.aside initial={initialLeft} whileInView={animate} className="other-projects-container jpmazon">
+    <motion.aside initial={initialLeft} whileInView={animate} viewport={{ once: true }} className="other-projects-container jpmazon">
       <div className="other-projects-description">
         <h3 className="project-heading">JPMazon</h3>
         <p>

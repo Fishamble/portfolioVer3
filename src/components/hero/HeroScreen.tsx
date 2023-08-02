@@ -23,7 +23,7 @@ export default function HeroScreen() {
           </motion.div>
         </div>
       </div>
-
+      
       <div className="sailboat-wrapper">
         <DevIcons />
         <div className="sailboat">

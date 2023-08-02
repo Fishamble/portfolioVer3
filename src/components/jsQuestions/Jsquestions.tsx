@@ -4,7 +4,7 @@ import { animate, initialRight } from "../../misc/animateValues";
 
 export default function Jsquestions() {
   return (
-    <motion.aside initial={initialRight} whileInView={animate} className="other-projects-container jsquestions">
+    <motion.aside initial={initialRight} whileInView={animate} viewport={{ once: true }} className="other-projects-container jsquestions">
       <div className="other-projects-description">
         <h3 className="project-heading">Coding questions</h3>
         <p>

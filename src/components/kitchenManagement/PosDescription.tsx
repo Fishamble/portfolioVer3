@@ -5,8 +5,8 @@ import "./css/posDescription.css";
 
 export default function PosDescription() {
   return (
-    <motion.div initial={initialLeft} whileInView={animate} className="description-container">
-      <motion.div initial={initialLeft} whileInView={animate} className="description">
+    <motion.div initial={initialLeft} whileInView={animate} viewport={{ once: true }} className="description-container">
+      <motion.div initial={initialLeft} whileInView={animate} viewport={{ once: true }} className="description">
         <div className="waiter-img-wrapper">
           <p className="sml-question">What's taking so long?</p>
           <img
@@ -28,10 +28,11 @@ export default function PosDescription() {
               These apps facilitate communication.
               <br /> Happy customers, happy staff.
             </p>
-
-            <motion.p initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { delay: 1, duration: 1.5 } }}>
-              LEARN MORE
-            </motion.p>
+            <div className="learn-button-wrapper">
+              <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>
+                Learn more
+              </motion.button>
+            </div>
           </div>
         </div>
       </motion.div>

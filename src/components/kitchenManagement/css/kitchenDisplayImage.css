@@ -1,6 +1,23 @@
+
+
 .kitchen-display-container {
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-one);
+  /* border-radius: 20px; */
+  padding:  2px ;
+  /* border: 2px solid var(--clr-four); */
+  box-shadow: 5px 5px 10px var(--clr-one);
+   align-self: center;
+
+    align-self: center;
+    /* slight difference between this image and the youtube player */
+    /* aspect-ratio: 1280 / 732; */
+
 }
+
+
 
 @media (min-width: 700px) {
   .kitchen-display-container {
@@ -12,11 +29,7 @@
     padding: 1rem;
     border: 2px solid var(--clr-four);
     box-shadow: 5px 5px 10px var(--clr-one);
-    align-self: center;
-
-    align-self: center;
-    /* slight difference between this image and the youtube player */
-    aspect-ratio: 1280 / 732;
+ 
     z-index:2;
 
   }
@@ -38,6 +51,8 @@
 @media (min-width: 1200px) {
   .kitchen-display-container {
     /* height: 105%; */
+    height: 100%;
+
   }
 }
 

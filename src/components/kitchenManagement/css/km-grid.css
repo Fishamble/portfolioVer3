@@ -1,5 +1,27 @@
+.kitchen-man {
+  display: grid;
+
+  grid-template-columns: 1fr 0.6fr;
+  grid-template-rows: 3fr;
+  gap: .5rem;
+  padding: .5rem;
+
+}
+
+.kitchen-display-container {
+  grid-area: 3 / 1 / 4/ 2;
+}
+
 .description-container {
   grid-area: 1 / 1 / 2/ 3;
+}
+
+.player-container-click {
+  grid-area: 1 / 1 / 4/ 3;
+}
+
+.pos-container {
+  grid-area: 2 / 2 / 4/ 3;
 }
 
 @media (min-width: 700px) {
@@ -7,7 +29,7 @@
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     grid-template-rows: auto;
-    gap: 2rem;
+    gap: 1rem;
     padding: 2rem;
   }
 

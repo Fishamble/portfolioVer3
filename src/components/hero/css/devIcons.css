@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding-top:2rem;
+  padding-top: 2rem;
   /* padding-bottom: 2rem; */
   /* width:360px; */
   /* height: 100%; */
@@ -28,12 +28,6 @@
 
 .dev-icons span {
   font-size: 0.4em;
-}
-
-@media (min-width: 790px) {
-  .dev-icons {
-    /* font-size: 1rem; */
-  }
 }
 
 @media (min-width: 880px) {

@@ -7,7 +7,7 @@ import "./wim.css";
 
 export default function Wim() {
   return (
-    <motion.aside initial={initialLeft} whileInView={animate} className="wim-container">
+    <motion.aside initial={initialLeft} whileInView={animate} viewport={{ once: true }} className="wim-container">
       <div className="wim-description">
         <h3 className="project-heading">WIM</h3>
         <p>WIM is an inventory tool, which allows for the tracking of sales, purchases and realtime stock levels for products.</p>

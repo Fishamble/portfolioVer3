@@ -12,29 +12,75 @@
   /* position: relative; */
   background-color: blueviolet;
   background-color: rgb(27, 42, 65);
-
 }
 
 .sml-question {
   /* display: none; */
   position: absolute;
   right: 0%;
-  width:150px;
+  width: 150px;
   /* top:10%; */
   background-color: rgb(27, 42, 65);
   border-radius: 10px;
   color: white;
   padding: 0.5rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .inner-text {
   background-color: rgb(27, 42, 65);
-  color:white;
-  padding:1rem;
-  width:90%;
-  
+  color: white;
+  padding: 1rem;
+  width: 90%;
+  /* background-color: aqua; */
+}
 
+.learn-button-wrapper {
+  display: flex;
+  justify-content: end;
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
+
+.learn-button {
+  padding: 0.1em 0.6em;
+  border-radius: 50px;
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid rgb(27, 42, 65);
+  /* margin:1rem; */
+}
+
+.learn-button:hover {
+  background-color: rgb(27, 42, 65);
+  color: white;
+  border: 1px solid white;
+}
+
+@media (min-width: 450px) {
+  .sml-question {
+    font-size: 1.1rem;
+    padding: 0.8rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 520px) {
+  .sml-question {
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 240px;
+  }
+}
+
+@media (min-width: 600px) {
+  .sml-question {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    width: 260px;
+
+  }
 }
 
 @media (min-width: 700px) {
@@ -44,6 +90,14 @@
 
   .description {
     box-shadow: 5px 5px 10px var(--clr-one);
+  }
+
+  .sml-question {
+ 
+    
+    
+    font-size: 1.5rem;
+    margin-right: 10%;
   }
 }
 

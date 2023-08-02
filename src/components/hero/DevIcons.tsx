@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import "./css/devIcons.css";
 
 export default function DevIcons() {
@@ -29,12 +30,12 @@ export default function DevIcons() {
         <span>Firebase</span>
       </li>
       <li>
-        <i className="devicon-mysql-plain "></i>
-        <span>MySQL</span>
-      </li>
-      <li>
         <i className="devicon-react-original "></i>
         <span>React</span>
+      </li>
+      <li>
+        <motion.i initial={{y:0}} animate={{y:'-2rem', transition:{duration:2,delay:1,repeat: Infinity, repeatType: "reverse"}}} className="devicon-mysql-plain "></motion.i>
+        <span>MySQL</span>
       </li>
       <li>
         <i className="devicon-typescript-plain "></i>
