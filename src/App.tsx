@@ -16,11 +16,13 @@ function App() {
       <section className="section-container">
         <KitchenManagement />
         <hr />
-        <Wim />
-        <hr />
-        <Jpmazon />
-        <hr />
-        <Jsquestions />
+        <div className="other-projects-wrapper">
+          <Wim />
+          <hr />
+          <Jpmazon />
+          <hr />
+          <Jsquestions />
+        </div>
       </section>
 
       <About />

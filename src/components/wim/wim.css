@@ -3,7 +3,7 @@
   font-size: 1rem;
   /* border-radius: 20px; */
   border: 2px solid var(--clr-four);
-  background: rgba(27, 42, 65, 0.85);
+  /* background: rgba(27, 42, 65, 0.85); */
   box-shadow: 5px 5px 10px var(--clr-one);
   z-index: 2;
   margin-bottom: 2rem;
@@ -37,7 +37,7 @@
   .wim-container {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
-    background: radial-gradient(circle, rgba(46, 61, 107, 1) 50%, rgba(43, 47, 89, 1) 93%);
+    /* background: radial-gradient(circle, rgba(46, 61, 107, 1) 50%, rgba(43, 47, 89, 1) 93%); */
     /* margin:0; */
     padding: 0;
   }
@@ -81,7 +81,7 @@
   .wim-container {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
-    background: radial-gradient(circle, rgba(46, 61, 107, 1) 50%, rgba(43, 47, 89, 1) 93%);
+    /* background: radial-gradient(circle, rgba(46, 61, 107, 1) 50%, rgba(43, 47, 89, 1) 93%); */
     /* margin:0; */
     padding: 0;
   }

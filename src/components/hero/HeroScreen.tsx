@@ -19,7 +19,7 @@ export default function HeroScreen() {
         </div>
         <div className="blurb-wrapper">
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0, transition: { delay: 0.7, duration: 1, ease: "easeOut" } }}>
-            Transforming business processes into working software solutions.
+            Im excited by the idea of transforming business processes into working software solutions.
           </motion.div>
         </div>
       </div>

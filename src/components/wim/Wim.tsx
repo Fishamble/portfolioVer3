@@ -13,6 +13,14 @@ export default function Wim() {
         <p>WIM is an inventory tool, which allows for the tracking of sales, purchases and realtime stock levels for products.</p>
         <p>The front end is built using react, typescript and react-table and is hosted on netlify.</p>
         <p>The back end utilises Node/Express.js and a mySQL relational database and is hosted on a digital ocean VPS. </p>
+
+
+<p>
+If you can't measure it, you can't manage it.”  Peter Drucker.
+
+</p>
+
+
       </div>
       <div className="outer">
         <div className="project-img-wrapper img-btn-container">
