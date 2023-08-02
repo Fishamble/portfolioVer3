@@ -1,0 +1,69 @@
+.pos-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  filter: brightness(50%);
+
+  display:none;
+}
+
+.pos-container .img-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.pos-image {
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 20px;
+  /* opacity:0; */
+}
+
+/* --------------------------------------------------------------------------------------------- */
+@media (min-width: 700px) {
+  .pos-container {
+    position: relative;
+    filter: none;
+    height: fit-content;
+    display: block;
+  }
+
+  .pos-image {
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 5px 5px 10px var(--clr-one);
+    border: 7px solid black;
+    outline: 2px solid var(--clr-four);
+    border-radius: 24px;
+  }
+
+  .pos-container::after {
+    content: "POS app";
+    position: absolute;
+    font-size: 0.8rem;
+    top: -2em;
+    left: 2em;
+    background-color: white;
+    padding: 0.5em 1.5em;
+    font-weight: 700;
+    border: 2px solid var(--clr-four);
+    /* border-radius: 1rem; */
+  }
+}
+
+@media (min-width: 1200px) {
+  .pos-container {
+  }
+
+  .pos-image {
+    border: 7px solid black;
+    outline: 2px solid var(--clr-four);
+    max-height: none;
+  }
+}

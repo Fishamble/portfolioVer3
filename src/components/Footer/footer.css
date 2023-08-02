@@ -1,0 +1,79 @@
+.footer {
+  background-color: var(--clr-one);
+  color: var(--clr-seven);
+  margin-top: 2rem;
+  box-shadow: 5px 5px 10px var(--clr-seven);
+}
+
+.footer p {
+  text-align: center;
+}
+
+.footer .icons {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-around;
+  width: 9em;
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0.4em;
+  margin-top: 1rem;
+  border: 1px solid var(--clr-four);
+  border-radius: 50px;
+}
+
+.footer a {
+  color: inherit;
+  width: 60%;
+  height: 60%;
+
+}
+
+
+.footer li {
+  height: 2em;
+  width: 2em;
+  border-radius: 999px;
+  border: 1px solid var(--clr-four);
+  color: var(--clr-four);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer li:hover {
+  border: 1px solid var(--clr-four);
+  color: var(--clr-one);
+  background-color: var(--clr-four);
+}
+
+.footer .hand-crafted {
+  position: relative;
+  padding: 2em 0;
+  font-size: 0.8em;
+}
+
+.footer .digger {
+  font-size: 3em;
+  color: var(--clr-four);
+  display: flex;
+  justify-content: center;
+  padding: 0.3em;
+}
+
+.footer .quote-wrapper {
+  margin: 0 auto;
+  padding: 2rem 0;
+  min-height: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer .quote {
+  text-align: end;
+}
+
+.footer .author {
+  display: inline;
+}

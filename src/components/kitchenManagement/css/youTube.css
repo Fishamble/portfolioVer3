@@ -1,0 +1,82 @@
+.player-container {
+  padding: 1rem 0;
+  position: relative;
+  /* z-index: 5; */
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  border: 2px solid var(--clr-four);
+  background-color: var(--clr-one);
+  /* border-radius: 20px; */
+  box-shadow: 5px 5px 10px var(--clr-one);
+}
+
+.player-modal {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(250, 235, 215, 0.6);
+  z-index: 10;
+  display: none;
+}
+
+.player-container-click {
+  z-index: 11;
+}
+
+@media (min-width: 425px) {
+  .player-container {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .player-container {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .player-container {
+    padding: 0;
+    align-self: center;
+  }
+
+  .player-container::before {
+    content: "Intro video 1:16";
+    position: absolute;
+    font-size: 0.8rem;
+    top: -2em;
+    left: 2em;
+    background-color: white;
+    padding: 0.5em;
+    font-weight: 700;
+    border: 2px solid var(--clr-four);
+    /* border-radius: 1rem; */
+    z-index: 2;
+  }
+
+  .player-container-click {
+    justify-self: center;
+    width: 100%;
+    z-index: 11;
+  }
+}
+
+@media (min-width: 1200px) {
+  .player-container-click {
+    width: 80%;
+  }
+}

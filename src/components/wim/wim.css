@@ -1,0 +1,146 @@
+.wim-container {
+  padding: 1rem;
+  font-size: 1rem;
+  /* border-radius: 20px; */
+  border: 2px solid var(--clr-four);
+  background: rgba(27, 42, 65, 0.85);
+  box-shadow: 5px 5px 10px var(--clr-one);
+  z-index: 2;
+  margin-bottom: 2rem;
+  /* width:100%; */
+  grid-column: span 2;
+}
+
+.wim-container h3 {
+  margin-bottom: 1rem;
+}
+
+.wim-container img {
+  margin: 0 auto;
+}
+
+.wim-description {
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+/* @media (min-width: 425px) {
+    .other-projects-wrapper {
+      padding: 1rem;
+    }
+  } */
+
+/* .extra-description {
+    display: none;
+  } */
+
+@media (min-width: 600px) {
+  .wim-container {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    background: radial-gradient(circle, rgba(46, 61, 107, 1) 50%, rgba(43, 47, 89, 1) 93%);
+    /* margin:0; */
+    padding: 0;
+  }
+
+  .temp-note {
+    margin-top: 4rem;
+  }
+}
+
+@media (min-width: 650px) {
+  .wim-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* .extra-description {
+    display: inline;
+  } */
+}
+
+@media (min-width: 800px) {
+  .wim-container {
+    /* display: flex;
+    flex-direction: column;
+    margin: 2rem; */
+    margin: 2rem;
+
+    grid-template-columns: 1fr 1fr;
+    /* width:100%; */
+  }
+
+  .wim-container .outer {
+    margin: 2rem;
+  }
+}
+
+.temp-note {
+  margin-top: 1rem;
+  color: red;
+}
+
+@media (min-width: 1220px) {
+  .wim-container {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    background: radial-gradient(circle, rgba(46, 61, 107, 1) 50%, rgba(43, 47, 89, 1) 93%);
+    /* margin:0; */
+    padding: 0;
+  }
+
+
+}
+
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* css for other projects image overlay */
+
+.wim-container .github-btn,
+.wim-container .live-btn {
+  display: block;
+}
+
+.wim-container .img-btn-container:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.wim-container .overlay-text {
+  display: block;
+  top: 10%;
+  font-size: 0.77rem;
+}
+
+@media (min-width: 450px) {
+  .wim-container .overlay-text {
+    display: block;
+    font-size: 0.88rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .wim-container .overlay-text {
+    display: block;
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .wim-container .overlay-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 1250px) {
+  .wim-container .overlay-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1450px) {
+  .wim-container .overlay-text {
+    top: 20%;
+  }
+}

@@ -1,0 +1,75 @@
+.kitchen-display-container {
+  display: none;
+}
+
+@media (min-width: 700px) {
+  .kitchen-display-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-one);
+    /* border-radius: 20px; */
+    padding: 1rem;
+    border: 2px solid var(--clr-four);
+    box-shadow: 5px 5px 10px var(--clr-one);
+    align-self: center;
+
+    align-self: center;
+    /* slight difference between this image and the youtube player */
+    aspect-ratio: 1280 / 732;
+    z-index:2;
+
+  }
+
+  .kitchen-display-container::after {
+    content: "Kitchen display";
+    position: absolute;
+    font-size: 0.8rem;
+    top: -2em;
+    left: 2em;
+    background-color: white;
+    padding: 0.5em;
+    font-weight: 700;
+    border: 2px solid var(--clr-four);
+    /* border-radius: 1rem; */
+  }
+}
+
+@media (min-width: 1200px) {
+  .kitchen-display-container {
+    /* height: 105%; */
+  }
+}
+
+/* overlay font size for hover on image */
+
+
+@media (min-width: 700px) {
+  .kitchen-display-container .overlay {
+    font-size: .8rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .kitchen-display-container .overlay {
+    font-size: 1rem;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .kitchen-display-container .overlay {
+    font-size: .8rem;
+  }
+/* 
+  .kitchen-display-container button {
+      font-size:.7em;
+      width: 3rem;
+  } */
+}
+
+@media (min-width: 1440px) {
+  .kitchen-display-container .overlay {
+    font-size: 1rem;
+  }
+}
