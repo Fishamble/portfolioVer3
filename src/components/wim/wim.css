@@ -1,56 +1,59 @@
 .wim .op-description {
   background-color: blanchedalmond;
-  padding-bottom:1rem;
+  padding-bottom: 1rem;
   /* height: 50%; */
 }
 
 
 
-
-blockquote {
-  border-left:none
-}
-
-.quote-badge{
-  background-color: rgba(0, 0, 0, 0.2);   
-}
-
-.quote-box{
-  
+.quote-box {
   overflow: hidden;
-  /* margin-top: -50px; */
-  /* padding-top: -100px; */
   border-radius: 17px;
-  /* font-size: 1rem; */
   background-color: var(--clr-backGround2);
-  /* margin-top: 25px; */
-  color:var(--clr-text);
-  /* width: 325px; */
-  box-shadow: 2px 2px 2px 2px #E0E0E0;
-  
+  color: var(--clr-text);
+  /* box-shadow: 2px 2px 2px 2px #e0e0e0; */
+  /* width:50% */
 }
 
-.quotation-mark{
-  
-  margin-top: -10px;
+.quotation-mark {
+  margin-top: -1rem;
   font-weight: bold;
-  font-size:100px;
-  color:white;
+  font-size: 4rem;
+  color: white;
   font-family: "Times New Roman", Georgia, Serif;
-  
+}
+
+.additional-text {
+
+  width:50%;
+  display: inline-block;
+  padding:.5rem;
+  /* margin-top: 3rem; */
 }
 
 .quote-box {
-  padding: 1rem;
+  
+  padding: .5rem;
 }
 
-.quote-text{
+.quote-wrapper {
+  display: inline-block;
+  width:50%;
+}
 
-  font-size: 1.3rem;
+
+.quote-text {
+  font-size: 1rem;
   margin-top: -4rem;
+  margin-left: 2.5rem;
 }
 
 .peter-name {
-  padding-top:1rem;
+  padding-top: .5rem;
   text-align: end;
+}
+
+
+.overlay {
+  display: none!important;
 }

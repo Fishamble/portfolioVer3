@@ -12,7 +12,7 @@ export default function Wim() {
         <p>If you can't measure it, you can't manage it.” Peter Drucker.</p>
       </div> */}
 
-      <div>
+      <div className='quote-wrapper'>
         <blockquote className="quote-box">
           <p className="quotation-mark">“</p>
           <p className="quote-text">If you can't measure it, you can't manage it.</p>
@@ -22,6 +22,15 @@ export default function Wim() {
           </div>
         </blockquote>
       </div>
+      <div className="additional-text">
+        <p>This app is a tool for tracking stock on hand.</p>
+        <p>An essential undertaking for any profitable business</p>
+      </div>
+      <div className="learn-button-wrapper">
+              <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>
+                Learn more
+              </motion.button>
+            </div>
 
       <div className="project-img-wrapper img-btn-container">
         <img width="500" height="406" src={wim} alt="landing page for the wim project" />
