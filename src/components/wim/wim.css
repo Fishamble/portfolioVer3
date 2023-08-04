@@ -1,0 +1,56 @@
+.wim .op-description {
+  background-color: blanchedalmond;
+  padding-bottom:1rem;
+  /* height: 50%; */
+}
+
+
+
+
+blockquote {
+  border-left:none
+}
+
+.quote-badge{
+  background-color: rgba(0, 0, 0, 0.2);   
+}
+
+.quote-box{
+  
+  overflow: hidden;
+  /* margin-top: -50px; */
+  /* padding-top: -100px; */
+  border-radius: 17px;
+  /* font-size: 1rem; */
+  background-color: var(--clr-backGround2);
+  /* margin-top: 25px; */
+  color:var(--clr-text);
+  /* width: 325px; */
+  box-shadow: 2px 2px 2px 2px #E0E0E0;
+  
+}
+
+.quotation-mark{
+  
+  margin-top: -10px;
+  font-weight: bold;
+  font-size:100px;
+  color:white;
+  font-family: "Times New Roman", Georgia, Serif;
+  
+}
+
+.quote-box {
+  padding: 1rem;
+}
+
+.quote-text{
+
+  font-size: 1.3rem;
+  margin-top: -4rem;
+}
+
+.peter-name {
+  padding-top:1rem;
+  text-align: end;
+}

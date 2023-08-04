@@ -36,7 +36,7 @@
   transform: translateX(-50%);
   opacity: 0;
   text-align: center;
-  color: white;
+  color: var(--clr-text);
 }
 
 .overlay-text h4 {
@@ -120,9 +120,7 @@
   .btn-island {
     display: flex;
   }
-
 }
-
 
 @media (min-width: 700px) {
   .overlay-text {

@@ -1,47 +1,48 @@
 .other-projects-wrapper {
-  /* display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-rows: 1fr 0fr 1fr 0fr 1fr;
   grid-template-columns: 1fr;
-  grid-gap: 1rem; */
+  grid-gap: 1rem;
+  overflow: hidden;
 }
 
 .wim {
-  /* grid-area: 1/1/2/3; */
-  background-color: aqua;
+  grid-area: 1/1/2/2;
+  /* background-color: aqua; */
 }
 
 .jpmazon {
-  /* grid-area: 1/1/2/3; */
-  background-color: blue;
+  grid-area: 3/1/4/2;
+  /* background-color: blue; */
 }
 
 .jsquestions {
-  /* grid-area: 2/2/3/4; */
-  background-color: orange;
+  grid-area: 5/1/6/2;
+  /* background-color: orange; */
 }
-
-.other-projects-container {
-}
-
-
 
 .project-img-wrapper {
-  background-color: aqua;
-  height: 70vw;
+  /* background-color: aqua; */
+  /* height: 70vw; */
+  padding:1rem;
+  /* height: 50%; */
+
 }
 
-.wim {
+
+
+.other-projects-container {
   margin: 1rem;
+  /* padding: 1rem; */
+  /* height:600px; */
+  background-color: yellow;
+  /* object-fit: contain; */
 }
 
-.op-description {
-  background-color: bisque;
-  height: 70vw;
-}
 
 @media (min-width: 600px) {
 }
-
+/* 
 @media (min-width: 1000px) {
   .other-projects-wrapper {
     display: grid;
@@ -65,4 +66,4 @@
     grid-area: 2/2/3/4;
     background-color: orange;
   }
-}
+} */

@@ -1,5 +1,5 @@
 .kitchen-man {
-  margin:1rem;
+  margin: 1rem;
 }
 
 .lrg-question {
@@ -14,8 +14,7 @@
 .waiter-img-wrapper {
   /* width: 100%; */
   /* position: relative; */
-  background-color: blueviolet;
-  background-color: rgb(27, 42, 65);
+  background-color: var(--clr-backGround2);
 }
 
 .img-text-container {
@@ -28,16 +27,16 @@
   right: 1rem;
   width: 150px;
   /* top:10%; */
-  background-color: rgb(27, 42, 65);
+  background-color: var(--clr-backGround2);
   border-radius: 10px;
-  color: white;
+  color: var(--clr-text);
   padding: 0.5rem;
   margin-top: 0.5rem;
 }
 
 .inner-text {
-  background-color: rgb(27, 42, 65);
-  color: white;
+  background-color: var(--clr-backGround2);
+  color: var(--clr-text);
   padding: 1rem;
   width: 90%;
   /* background-color: aqua; */
@@ -55,18 +54,18 @@
   border-radius: 50px;
   font-weight: 900;
   cursor: pointer;
-  border: 1px solid rgb(27, 42, 65);
+  border: 1px solid var(--clr-backGround2);
   /* margin:1rem; */
 }
 
 .learn-button:hover {
-  background-color: rgb(27, 42, 65);
-  color: white;
+  background-color: var(--clr-backGround2);
+  color: var(--clr-text);
   border: 1px solid white;
 }
 
 .description-container {
- margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 450px) {
@@ -127,11 +126,11 @@
 
   .inner-text {
     /* position: relative; */
-    color: white;
+    color: var(--clr-text);
     width: calc(80% + 102.56px);
     transform: translate(-102.56px);
     /* background-color: red; */
-    background-color: rgb(27, 42, 65);
+    background-color: var(--clr-backGround2);
     border-radius: 10px;
     border: 1px solid hsl(22, 15%, 90%);
     margin-top: 4rem;
@@ -164,18 +163,15 @@
 
   .img-text-container {
     /* background-color: hsl(22, 15%, 90%); */
-    
+
     position: relative;
-    background-color: rgb(27, 42, 65);
+    background-color: var(--clr-backGround2);
     color: var(--clr-text);
     width: 30%;
     display: flex;
     flex-direction: column;
 
     justify-content: center;
-
-
-
   }
 
   .lrg-question {
@@ -184,15 +180,15 @@
     left: -285px;
     font-size: 2.2rem;
     font-weight: 900;
-    /* background-color: white; */
+    /* background-color: var(--clr-backGroundWSmoke); */
     padding: calc(0.1rem - 2px);
-    border: 1px solid rgb(27, 42, 65);
+    border: 1px solid var(--clr-backGround2);
     padding-left: 1rem;
     border-radius: 10px 0 0 10px;
   }
 
   .img-text-container p span {
-    /* color: white; */
+    /* color: var(--clr-text); */
     display: inline-block;
     background-color: hsl(22, 15%, 90%);
     border-radius: 0 10px 10px 0;

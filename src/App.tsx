@@ -26,8 +26,8 @@ function App() {
         </div>
       </section>
 
-        <ContactForm/>
       <About />
+      <ContactForm />
       <Footer />
     </>
   );

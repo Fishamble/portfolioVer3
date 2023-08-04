@@ -1,10 +1,8 @@
-
 .pos-container .img-btn-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 
 .pos-image {
   max-width: 90%;
@@ -12,8 +10,6 @@
   border-radius: 20px;
   /* opacity:0; */
 }
-
-
 
 .pos-container {
   position: relative;
@@ -26,25 +22,23 @@
   max-width: 100%;
   max-height: 100%;
   box-shadow: 5px 5px 10px var(--clr-one);
-  border: 2px solid black;
+  border: 2px solid var(--clr-border);
   /* outline: 1px solid var(--clr-four); */
   border-radius: 24px;
+  /* z-index: 10; */
 }
 
 .pos-container::after {
   content: "POS app";
   position: absolute;
   font-size: 0.7rem;
-  padding: 0.2em .7em;
+  padding: 0.2em 0.7em;
   top: -1em;
   left: 2em;
-  background-color: white;
+  background-color: var(--clr-backGroundWSmoke);
   font-weight: 700;
-  border: 2px solid black;
+  border: 2px solid var(--clr-border);
 }
-
-
-
 
 /* --------------------------------------------------------------------------------------------- */
 @media (min-width: 700px) {
@@ -67,12 +61,10 @@
   .pos-container::after {
     border: 2px solid var(--clr-four);
     font-size: 0.8rem;
-  
   }
 }
 
 @media (min-width: 1200px) {
-  
   .pos-image {
     border: 7px solid black;
     outline: 2px solid var(--clr-four);

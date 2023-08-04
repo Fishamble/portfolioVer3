@@ -41,9 +41,9 @@
   top: -1em;
   left: 2em;
   /* left:50%; */
-  background-color: white;
+  background-color: var(--clr-backGroundWSmoke);
   font-weight: 700;
-  border: 2px solid black;
+  border: 2px solid var(--clr-border);
   /* border-radius: 1rem; */
   z-index: 2;
 }

@@ -37,7 +37,6 @@
   /* color: var(--clr-seaBlue); */
   /* background-color: blue; */
   position: relative;
-  /* color: lightblue; */
 }
 
 .name p {
@@ -95,15 +94,14 @@
   /* background-color: aqua; */
   /* height: 100%; */
   flex-grow: 1;
-  color: white;
+  color: var(--clr-text);
 }
 
 .projects-arrow span {
   display: flex;
 }
 
-
-.projects-arrow span *{
+.projects-arrow span * {
   padding-left: 10px;
 }
 
