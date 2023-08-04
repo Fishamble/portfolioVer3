@@ -1,0 +1,119 @@
+.contact {
+  padding: 0;
+  background-color: white;
+  margin: 2rem auto;
+  max-width: var(--max-width);
+
+  box-shadow: 5px 5px 10px var(--clr-one);
+}
+
+.contact .heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact p {
+  text-align: center;
+  line-height: 2rem;
+  padding: 0 1rem;
+}
+
+.contact .form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.contact .inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact input {
+  padding: 1rem;
+}
+
+.contact textarea {
+  padding: 1rem;
+}
+
+.contact .label-wrapper {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 0.4rem;
+}
+
+label {
+  border-bottom: 1px solid var(--clr-four);
+}
+
+.contact .contact-name,
+.email,
+.message {
+  width: 90%;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid var(--clr-four);
+  outline: none;
+  transition: all 2s ease-out;
+}
+
+.contact .contact-name:focus,
+.email:focus,
+.message:focus {
+  outline: 3px solid var(--clr-four);
+  border: 1px solid var(--clr-four);
+}
+
+.contact .message {
+  height: 7rem;
+}
+
+.contact .btn-send {
+  width: 50%;
+  height: 3rem;
+  max-width: 350px;
+  background-color: var(--clr-three);
+  border: 2px solid var(--clr-seven);
+  color: var(--clr-seven);
+  border-radius: 10px;
+  font-weight: 600;
+  box-shadow: 5px 5px 10px var(--clr-one);
+}
+
+.contact .btn-send:hover,
+.btn-send:focus {
+  background-color: var(--clr-seven);
+  border: 2px solid var(--clr-three);
+  color: var(--clr-three);
+  cursor: pointer;
+  outline: 2px solid var(--clr-seven);
+}
+
+input,
+textarea {
+  /* color:black; */
+}
+
+textarea {
+  resize: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px var(--clr-one) inset !important;
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: white !important;
+}

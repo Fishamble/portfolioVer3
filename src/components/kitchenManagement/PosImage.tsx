@@ -13,19 +13,21 @@ export default function PosImage() {
         <div className="overlay"></div>
         <div className="overlay-text">
           <h4>POS App</h4>
-          <p></p>
+          <p>this app is the point of sale</p>
         </div>
 
-        <form name="gitPos" target="_blank">
-          <button className="highlight-btn github-btn" type="submit" formAction="https://github.com/Fishamble/kitchenpos">
-            GitHub
-          </button>
-        </form>
-        <form name="livePos" target="_blank">
-          <button className="highlight-btn live-btn" type="submit" formAction="https://kitchenpos.netlify.app/">
-            Live
-          </button>
-        </form>
+        <div className="btn-island">
+          <form name="gitPos" target="_blank">
+            <button className="highlight-btn github-btn" type="submit" formAction="https://github.com/Fishamble/kitchenpos">
+              GitHub
+            </button>
+          </form>
+          <form name="livePos" target="_blank">
+            <button className="highlight-btn live-btn" type="submit" formAction="https://kitchenpos.netlify.app/">
+              Live
+            </button>
+          </form>
+        </div>
       </div>
     </motion.div>
   );

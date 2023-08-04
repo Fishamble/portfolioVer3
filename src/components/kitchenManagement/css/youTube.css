@@ -1,7 +1,6 @@
 .player-container {
-  padding: 1rem 0;
   position: relative;
-  /* z-index: 5; */
+  align-self: center;
 }
 
 .player-wrapper {
@@ -16,9 +15,7 @@
   top: 0;
   left: 0;
   padding: 2px;
-  /* border: 1px solid var(--clr-four); */
   background-color: var(--clr-one);
-  /* border-radius: 20px; */
   box-shadow: 5px 5px 10px var(--clr-one);
 }
 
@@ -36,18 +33,26 @@
   z-index: 11;
 }
 
-
-
+.player-container::before {
+  content: "Intro video 1:16";
+  position: absolute;
+  font-size: 0.7rem;
+  padding: 0.2em 0.7em;
+  top: -1em;
+  left: 2em;
+  /* left:50%; */
+  background-color: white;
+  font-weight: 700;
+  border: 2px solid black;
+  /* border-radius: 1rem; */
+  z-index: 2;
+}
 
 @media (min-width: 700px) {
-  
   .react-player {
     padding: 1rem;
-  border: 1px solid var(--clr-four);
-
+    border: 2px solid var(--clr-four);
   }
-
-
 
   .player-container {
     padding: 0;
@@ -56,18 +61,8 @@
   }
 
   .player-container::before {
-
-    content: "Intro video 1:16";
-    position: absolute;
     font-size: 0.8rem;
-    top: -2em;
-    left: 2em;
-    background-color: white;
-    padding: 0.5em;
-    font-weight: 700;
     border: 2px solid var(--clr-four);
-    /* border-radius: 1rem; */
-    z-index: 2;
   }
 
   .player-container-click {

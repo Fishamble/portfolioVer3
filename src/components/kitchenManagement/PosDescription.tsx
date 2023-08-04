@@ -25,8 +25,8 @@ export default function PosDescription() {
           <div className="inner-text">
             <p>In a busy restaurant kitchen, speed and efficiency are the key to success.</p>
             <p>
-              These apps facilitate communication.
-              <br /> Faster service, happier customers.
+              These apps facilitate communication and clarity.
+              {/* <br /> Faster service, happier customers. */}
             </p>
             <div className="learn-button-wrapper">
               <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>

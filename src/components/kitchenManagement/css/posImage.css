@@ -1,15 +1,3 @@
-.pos-container {
-  /* height: 100%; */
-  width: 100%;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* position: absolute; */
-  /* top: 0; */
-  /* filter: brightness(50%); */
-
-  /* display:none; */
-}
 
 .pos-container .img-btn-container {
   display: flex;
@@ -43,17 +31,17 @@
   border-radius: 24px;
 }
 
-/* .pos-container::after {
+.pos-container::after {
   content: "POS app";
   position: absolute;
-  font-size: 0.8rem;
-  top: -2em;
+  font-size: 0.7rem;
+  padding: 0.2em .7em;
+  top: -1em;
   left: 2em;
   background-color: white;
-  padding: 0.5em 1.5em;
   font-weight: 700;
-  border: 2px solid var(--clr-four);
-} */
+  border: 2px solid black;
+}
 
 
 
@@ -77,16 +65,9 @@
   }
 
   .pos-container::after {
-    content: "POS app";
-    position: absolute;
-    font-size: 0.8rem;
-    top: -2em;
-    left: 2em;
-    background-color: white;
-    padding: 0.5em 1.5em;
-    font-weight: 700;
     border: 2px solid var(--clr-four);
-    /* border-radius: 1rem; */
+    font-size: 0.8rem;
+  
   }
 }
 

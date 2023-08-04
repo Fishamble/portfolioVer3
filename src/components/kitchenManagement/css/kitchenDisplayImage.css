@@ -1,23 +1,29 @@
-
-
 .kitchen-display-container {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--clr-one);
   /* border-radius: 20px; */
-  padding:  2px ;
-  /* border: 2px solid var(--clr-four); */
+  padding: 2px;
   box-shadow: 5px 5px 10px var(--clr-one);
-   align-self: center;
-
-    align-self: center;
-    /* slight difference between this image and the youtube player */
-    /* aspect-ratio: 1280 / 732; */
-
+  align-self: center;
 }
 
+.kitchen-display-container img {
+  aspect-ratio: 1280 / 732;
+}
 
+.kitchen-display-container::after {
+  content: "Kitchen display";
+  position: absolute;
+  font-size: 0.7rem;
+  padding: 0.2em 0.7em;
+  top: -1em;
+  left: 2em;
+  background-color: white;
+  font-weight: 700;
+  border: 2px solid black;
+}
 
 @media (min-width: 700px) {
   .kitchen-display-container {
@@ -25,43 +31,39 @@
     align-items: center;
     justify-content: center;
     background-color: var(--clr-one);
-    /* border-radius: 20px; */
     padding: 1rem;
     border: 2px solid var(--clr-four);
     box-shadow: 5px 5px 10px var(--clr-one);
- 
-    z-index:2;
-
+    z-index: 2;
   }
 
   .kitchen-display-container::after {
-    content: "Kitchen display";
-    position: absolute;
     font-size: 0.8rem;
-    top: -2em;
-    left: 2em;
-    background-color: white;
-    padding: 0.5em;
-    font-weight: 700;
     border: 2px solid var(--clr-four);
-    /* border-radius: 1rem; */
+  }
+}
+
+@media (min-width: 920px) {
+  .kitchen-display-container img {
+    width: 900px;
   }
 }
 
 @media (min-width: 1200px) {
   .kitchen-display-container {
-    /* height: 105%; */
     height: 100%;
+  }
 
+  .kitchen-display-container img {
+    aspect-ratio: auto;
   }
 }
 
 /* overlay font size for hover on image */
 
-
 @media (min-width: 700px) {
   .kitchen-display-container .overlay {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -71,16 +73,10 @@
   }
 }
 
-
 @media (min-width: 1200px) {
   .kitchen-display-container .overlay {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
-/* 
-  .kitchen-display-container button {
-      font-size:.7em;
-      width: 3rem;
-  } */
 }
 
 @media (min-width: 1440px) {

@@ -4,7 +4,7 @@ import "./css/clouds.css";
 
 export default function Clouds() {
   const randomStartPosition = () => {
-    let positionNumber = Math.floor(Math.random() * (100 - 20 + 1) + 10);
+    let positionNumber = Math.floor(Math.random() * (60 - 20 + 1) + 10);
 
     positionNumber *= Math.round(Math.random()) ? 1 : -1;
 
@@ -14,7 +14,7 @@ export default function Clouds() {
   };
 
   const initial1 = { x: "-5vw", scale: 1 };
-  const initial2 = { x: "-5vw", scale: 0.7 };
+  const initial2 = { x: randomStartPosition(), scale: 0.7 };
   const initial3 = { x: randomStartPosition(), scale: 0.5 };
   const initial4 = { x: randomStartPosition(), scale: 0.2 };
   const initial5 = { x: randomStartPosition(), scale: 0.3 };
