@@ -11,6 +11,7 @@ import "./wim.css";
 export default function Wim() {
   return (
     <motion.aside initial={initialLeft} whileInView={animate} viewport={{ once: true }} className="other-projects-container wim">
+      <div className="background"></div>
       <div className="quote-wrapper">
         <blockquote className="quote-box">
           <p className="quotation-mark">“</p>
@@ -23,26 +24,28 @@ export default function Wim() {
       </div>
 
 
-
-        <div className="learn-button-wrapper">
-          <button className="link-btn">
-            <FaGithub />
-          </button>
-          <button className="link-btn">
-            <FaArrowUpRightFromSquare />
-          </button>
-          <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>
-            Learn more
-          </motion.button>
-        </div>
-
-      <div className="additional-text">
-        <p>An app for tracking stock on hand.</p>
+      <div className="text-1">
+        <p> Stock taking is an essential undertaking for any profitable business.</p>
       </div>
-      <div className="project-img-wrapper img-btn-container">
-        <img width="500" height="406" src={wim} alt="landing page for the wim project" />
+
+
+      <div className="project-img-wrapper img-btn-container wim-image-wrapper">
+      <img className='wim-image' width="500" height="406" src={wim} alt="landing page for the wim project" />
       </div>
-      <p>An essential undertaking for any profitable business.</p>
+
+      <p className="text-2">This app helps simplify the process</p>
+      
+      <div className="btn-wrapper">
+        <button className="link-btn">
+          <FaGithub />
+        </button>
+        <button className="link-btn">
+          <FaArrowUpRightFromSquare />
+        </button>
+        <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>
+          Learn more
+        </motion.button>
+      </div>
     </motion.aside>
   );
 }

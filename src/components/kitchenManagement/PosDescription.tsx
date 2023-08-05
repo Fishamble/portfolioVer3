@@ -6,7 +6,7 @@ import "./css/posDescription.css";
 
 export default function PosDescription() {
   return (
-    <motion.div initial={initialLeft} whileInView={animate} viewport={{ once: true }} className="description-container">
+    <motion.div initial={initialLeft} whileInView={animate} viewport={{ once: true }} className="pos-description-container">
       <motion.div initial={initialLeft} whileInView={animate} viewport={{ once: true }} className="description">
         <div className="waiter-img-wrapper">
           <p className="sml-question">What's taking so long?</p>
