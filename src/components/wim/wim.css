@@ -4,7 +4,30 @@
   /* height: 50%; */
 }
 
+.wim .img-btn-container {
+  display:flex;
+  position:relative;
+}
 
+.wim img:nth-of-type(1) {
+  width: 50%;
+  padding-right: 1rem;
+}
+.wim img:nth-of-type(2) {
+  width:50%;
+  /* position: absolute;
+  top:20%;
+  right:0%; */
+}
+
+.wim .img-btn-container {
+  padding:0;
+  padding-top: 1rem;
+
+}
+
+
+/***************************** quote css**************** */
 
 .quote-box {
   overflow: hidden;
@@ -13,6 +36,7 @@
   color: var(--clr-text);
   /* box-shadow: 2px 2px 2px 2px #e0e0e0; */
   /* width:50% */
+  font-size: 1rem;
 }
 
 .quotation-mark {
@@ -24,23 +48,20 @@
 }
 
 .additional-text {
-
-  width:50%;
+  width: 50%;
   display: inline-block;
-  padding:.5rem;
+  padding: 0.5rem;
   /* margin-top: 3rem; */
 }
 
 .quote-box {
-  
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .quote-wrapper {
   display: inline-block;
-  width:50%;
+  width: 50%;
 }
-
 
 .quote-text {
   font-size: 1rem;
@@ -49,11 +70,8 @@
 }
 
 .peter-name {
-  padding-top: .5rem;
+  padding-top: 0.5rem;
   text-align: end;
 }
 
-
-.overlay {
-  display: none!important;
-}
+/********************************************* */

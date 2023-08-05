@@ -31,3 +31,63 @@
     font-size: 3rem;
   }
 }
+
+.dev-icons li:first-of-type {
+  order: 1;
+}
+
+.dev-icons li:nth-of-type(2) {
+  order: 2;
+}
+
+.dev-icons li:nth-of-type(3) {
+  order: 3;
+}
+
+.dev-icons li:nth-of-type(4) {
+  order: 4;
+}
+
+.dev-icons li:nth-of-type(5) {
+  order: 5;
+}
+
+.dev-icons li:nth-of-type(6) {
+  order: 6;
+}
+
+.dev-icons li:nth-of-type(7) {
+  order: 7;
+}
+
+.dev-icons li:nth-of-type(8) {
+  order: 8;
+}
+
+.dev-icons li:nth-of-type(9) {
+  order: 9;
+}
+
+.dev-icons li:nth-of-type(10) {
+  order: 10;
+}
+
+.dev-icons li:nth-of-type(11) {
+  order: 11;
+}
+
+.dev-icons li:nth-of-type(12) {
+  order: 12;
+}
+
+@media (max-width: 448px) {
+  .dev-icons li:nth-of-type(8) {
+    order: 5;
+  }
+}
+
+@media (max-width: 338px) {
+  .dev-icons li:nth-of-type(8) {
+    order: 4;
+  }
+}

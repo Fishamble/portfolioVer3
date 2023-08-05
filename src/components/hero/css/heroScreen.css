@@ -121,7 +121,7 @@
   /* transform: translate(50%); */
   animation: sailAnimation 2s ease-in-out infinite;
   /* color:burlywood; */
-  color: var(--clr-text);
+  /* color: var(--clr-text); */
   z-index: 1;
 }
 
