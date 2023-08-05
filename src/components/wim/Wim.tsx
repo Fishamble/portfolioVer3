@@ -22,29 +22,27 @@ export default function Wim() {
         </blockquote>
       </div>
 
-      <div className="additional-text">
-        <p>An app for tracking stock on hand. An essential undertaking for any profitable business</p>
-        <div className="learn-button-wrapper">
-          <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>
-            Learn more
-          </motion.button>
-        </div>
-      </div>
 
-      <div className="btm-section-container">
-        <div className="btn-wrapper">
+
+        <div className="learn-button-wrapper">
           <button className="link-btn">
             <FaGithub />
           </button>
           <button className="link-btn">
             <FaArrowUpRightFromSquare />
           </button>
+          <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>
+            Learn more
+          </motion.button>
         </div>
 
-        <div className="project-img-wrapper img-btn-container">
-          <img width="500" height="406" src={wim} alt="landing page for the wim project" />
-        </div>
+      <div className="additional-text">
+        <p>An app for tracking stock on hand.</p>
       </div>
+      <div className="project-img-wrapper img-btn-container">
+        <img width="500" height="406" src={wim} alt="landing page for the wim project" />
+      </div>
+      <p>An essential undertaking for any profitable business.</p>
     </motion.aside>
   );
 }

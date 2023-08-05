@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { FaArrowUpRightFromSquare, FaGithub } from "react-icons/fa6";
 import { animate, initialLeft } from "../../misc/animateValues";
 import annoyedCustomer from "./../../assets/images/annoyedCustomer.jpg";
 import "./css/posDescription.css";
@@ -29,6 +30,12 @@ export default function PosDescription() {
               {/* <br /> Faster service, happier customers. */}
             </p>
             <div className="learn-button-wrapper">
+              <button className="link-btn">
+                <FaGithub />
+              </button>
+              <button className="link-btn">
+                <FaArrowUpRightFromSquare />
+              </button>
               <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>
                 Learn more
               </motion.button>
