@@ -43,13 +43,13 @@
 
 @media (min-width: 600px) {
 }
-/* 
+
 @media (min-width: 1000px) {
   .other-projects-wrapper {
-    display: grid;
+    /* display: grid; */
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
+    /* grid-gap: 1rem; */
     background-color: bisque;
   }
 
@@ -67,4 +67,4 @@
     grid-area: 2/2/3/4;
     background-color: orange;
   }
-} */
+}
