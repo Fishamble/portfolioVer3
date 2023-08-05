@@ -1,5 +1,9 @@
-.wim .op-description {
+.wim {
+
   background-color: blanchedalmond;
+}
+
+.wim .op-description {
   padding-bottom: 1rem;
   /* height: 50%; */
 }

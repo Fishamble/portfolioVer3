@@ -21,21 +21,21 @@ export default function Wim() {
             </div>
           </blockquote>
         </div>
+
         <div className="additional-text">
-          <p>An app for tracking stock on hand.</p>
-          <p>An essential undertaking for any profitable business</p>
+          <p>An app for tracking stock on hand. An essential undertaking for any profitable business</p>
         </div>
+
         <div className="learn-button-wrapper">
           <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>
             Learn more
           </motion.button>
         </div>
       </div>
+
       <div className="project-img-wrapper img-btn-container">
         <img width="500" height="406" src={wim} alt="landing page for the wim project" />
         <img width="500" height="406" src={wim2} alt="landing page for the wim project" />
-
-      
       </div>
     </motion.aside>
   );
@@ -53,8 +53,6 @@ export default function Wim() {
 {
   /* <p>The back end utilises Node/Express.js and a mySQL relational database and is hosted on a digital ocean VPS. </p> */
 }
-
-
 
 // <div className="overlay"></div>
 // <div className="overlay-text">

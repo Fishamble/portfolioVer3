@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import JpMazon from "../../assets/images/JpMazon.webp";
 import { animate, initialLeft } from "../../misc/animateValues";
+import './jpmazon.css'
 
 // import TextScrollHighlight from "../MainProject/TextScrollHighlight";
 export default function Jpmazon() {
