@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { animate, initialLeft } from "../../misc/animateValues";
 
+import stockTake from "../../assets/images/stockTake.webp";
 import wim from "../../assets/images/wim.webp";
-// import wim2 from "../../assets/images/wim2.webp";
 
 import { FaArrowUpRightFromSquare, FaGithub } from "react-icons/fa6";
 import "./otherProjects.css";
@@ -23,28 +23,36 @@ export default function Wim() {
         </blockquote>
       </div>
 
-
       <div className="text-1">
         <p> Stock taking is an essential undertaking for any profitable business.</p>
+        <p>This app helps simplify the process</p>
       </div>
-
 
       <div className="project-img-wrapper img-btn-container wim-image-wrapper">
-      <img className='wim-image' width="500" height="406" src={wim} alt="landing page for the wim project" />
+        <img className="wim-image" width="500" height="406" src={wim} alt="landing page for the wim project" />
       </div>
 
-      <p className="text-2">This app helps simplify the process</p>
-      
+      {/* <p className="text-2">This app helps simplify the process</p> */}
+
       <div className="btn-wrapper">
-        <button className="link-btn">
-          <FaGithub />
-        </button>
-        <button className="link-btn">
-          <FaArrowUpRightFromSquare />
-        </button>
-        <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>
-          Learn more
-        </motion.button>
+        <div className="links-btn-wrapper">
+          <button className="link-btn">
+            <FaGithub />
+          </button>
+          <button className="link-btn">
+            <FaArrowUpRightFromSquare />
+          </button>
+        </div>
+
+        <div className="learn-more-wrapper">
+          <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>
+            Learn more
+          </motion.button>
+        </div>
+      </div>
+
+      <div className="stock-img-wrapper">
+        <img className="stock-img" width="640" height="427" src={stockTake} alt="men with clipboard counting stock" />
       </div>
     </motion.aside>
   );

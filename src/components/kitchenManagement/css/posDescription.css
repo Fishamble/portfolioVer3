@@ -193,6 +193,7 @@
     border: 1px solid var(--clr-backGround2);
     padding-left: 1rem;
     border-radius: 10px 0 0 10px;
+    color:var(--clr-backGround2);
   }
 
   .img-text-container p span {
