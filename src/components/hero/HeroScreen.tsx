@@ -31,7 +31,7 @@ export default function HeroScreen() {
         </div>
         <div className="projects-arrow">
           <motion.span initial={{opacity:0}} animate={{opacity:1,transition:{delay:2,duration:2}}}>
-            My projects
+            Featured projects
             <motion.span initial={{ y: -5 }} animate={{ y: 5, transition: { duration: 1, repeat: Infinity, repeatType: "reverse" } }}>
               <FaArrowDown />
             </motion.span>

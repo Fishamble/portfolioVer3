@@ -7,6 +7,7 @@
   padding: 2px;
   box-shadow: 5px 5px 10px var(--clr-one);
   align-self: center;
+  position: relative;
 }
 
 .kitchen-display-container img {

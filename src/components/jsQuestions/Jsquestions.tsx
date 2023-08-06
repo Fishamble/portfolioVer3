@@ -12,27 +12,12 @@ export default function Jsquestions() {
           react context API for state management and the intersection observer API for infinite scrolling.
         </p>
       </div>
-      <div className="project-img-wrapper img-btn-container">
+      <div>
         <img width="500" height="406" src={jsQuestions} alt="landing page for the coding questions app" />
-
-        <div className="overlay"></div>
-        <div className="overlay-text">
-          <h4>Coding questions</h4>
-          <p>An app for testing javascript and other programming knowlegde</p>
-        </div>
-        <div className="btn-island">
-          <form name="gitJsQ" target="_blank">
-            <button className="highlight-btn github-btn" type="submit" formAction="https://github.com/Fishamble/QuestionApp">
-              GitHub
-            </button>
-          </form>
-          <form name="liveJsQ" target="_blank">
-            <button className="highlight-btn live-btn" type="submit" formAction="https://jsqapp.netlify.app/">
-              Live
-            </button>
-          </form>
-        </div>
       </div>
     </motion.aside>
   );
 }
+
+// <button className="highlight-btn github-btn" type="submit" formAction="https://github.com/Fishamble/QuestionApp">
+// <button className="highlight-btn live-btn" type="submit" formAction="https://jsqapp.netlify.app/">

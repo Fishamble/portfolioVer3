@@ -1,184 +1,64 @@
-.img-btn-container:hover .overlay {
-  display: block;
-  background: rgba(0, 0, 0, 0.7);
-}
-
-.overlay-text {
-  display: block;
-  top: 10%;
-  font-size: 0.77rem;
-}
-
-.overlay-text {
-  display: none;
-}
-
-.img-btn-container {
+.img-btn-wrapper {
   position: relative;
+  font-size: 0.3rem;
 }
 
-.overlay {
+.links-wrapper {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0);
-  transition: background 0.5s ease;
-  border-radius: 22px;
-  font-size: 2rem;
-}
-
-.overlay-text {
-  position: absolute;
-  left: 50%;
-  top: 20%;
-  transform: translateX(-50%);
-  opacity: 0;
-  text-align: center;
-  color: var(--clr-text);
-}
-
-.overlay-text h4 {
-  font-size: 1.5em;
-}
-
-.overlay-text p {
-  font-size: 1em;
-  text-align: center;
-}
-
-.highlight-btn {
-  /* position: absolute; */
-
-  width: 4rem;
-  font-size: 1rem;
-  /* transform: translateX(-50%); */
-
-  /* transition: opacity 0.35s ease; */
-  cursor: pointer;
-  background-color: var(--clr-two);
-  color: var(--clr-seven);
-
-  border: 1px solid var(--clr-four);
-  padding: 0.3rem;
-  border-radius: 5px;
-  font-weight: 700;
-  outline: 2px solid var(--clr-seven);
-  /* visibility: hidden; */
-  /* display: inline-block; */
-}
-
-.highlight-btn:hover {
-  background-color: var(--clr-seven);
-  color: var(--clr-four);
-  outline: 2px solid var(--clr-four);
-}
-
-/* .github-btn {
-  left: 66%;
-}
-.live-btn {
-  left: 33%;
-} */
-
-.btn-island {
-  display: none;
-  position: absolute;
-  bottom: 15%;
-  left: 50%;
-  transform: translateX(-50%);
-  /* transform: translateY(50%); */
-
-  /* width:20rem; */
-  /* flex-direction: column; */
-
+  bottom: 2em;
+  left: 2em;
+  width: 10em;
+  display: flex;
   justify-content: space-between;
-  width: 40%;
-  max-width: 12rem;
-  /* background: rgba(0, 0, 0, 0.7); */
-  /* padding:.5rem; */
 }
 
-.btn-island > * {
-  display: inline-block;
+.link {
+  font-size: 2em;
+  border: 0.15em solid white;
+  background: 0;
+  color: white;
+  transition: transform 0.2s ease;
+  background-color: var(--clr-seaBlue);
+  padding: 0.5em;
+  border-radius: 50%;
 }
 
-.img-btn-container:hover .highlight-btn {
-  opacity: 1;
-  display: block;
-  visibility: visible;
-  transition: visibility 0ms 0.1s;
+.link:hover {
+  animation: scaleAnimation 0.3s ease-in-out; /* Apply the animation on hover */
+  transform: scale(1.3); /* Midpoint state is scaled up to 1.2 */
 }
 
-.img-btn-container:hover .overlay-text {
-  opacity: 1;
-  display: block;
-}
-
-@media (min-width: 700px) {
-  .btn-island {
-    display: flex;
+@media (min-width: 430px) {
+  .img-btn-wrapper {
+    position: relative;
+    font-size: 0.35rem;
   }
 }
 
-@media (min-width: 700px) {
-  .overlay-text {
-    display: block;
-  }
-
-  .img-btn-container:hover .overlay {
-    display: block;
-    background: rgba(0, 0, 0, 0.7);
-  }
-
-  .github-btn {
-    /* display: block; */
-  }
-
-  .live-btn {
-    /* display: block; */
-  }
-}
-
-@media (min-width: 900px) {
-  .highlight-btn {
-    /* position: absolute;
-    top: 66%;
-    font-size: 1rem;
-    padding: 0.5rem;
-    width: 5rem; */
-  }
-}
-
-@media (min-width: 450px) {
-  .other-projects-container .overlay-text {
-    display: block;
-    font-size: 0.88rem;
+@media (min-width: 500px) {
+  .img-btn-wrapper {
+    position: relative;
+    font-size: 0.4rem;
   }
 }
 
 @media (min-width: 600px) {
-  .other-projects-container .overlay-text {
-    display: block;
-    font-size: 0.7rem;
+  .img-btn-wrapper {
+    position: relative;
+    font-size: 0.47rem;
   }
 }
 
-@media (min-width: 900px) {
-  .other-projects-container .overlay-text {
-    font-size: 0.9rem;
+@media (min-width: 700px) {
+  .img-btn-wrapper {
+    position: relative;
+    font-size: 0.5rem;
   }
 }
 
-@media (min-width: 1250px) {
-  .other-projects-container .overlay-text {
-    font-size: 1.2rem;
-  }
-}
-
-@media (min-width: 1450px) {
-  .other-projects-container .overlay-text {
-    top: 20%;
+@media (min-width: 800px) {
+  .img-btn-wrapper {
+    position: relative;
+    font-size: 0.55rem;
   }
 }

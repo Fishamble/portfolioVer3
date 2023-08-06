@@ -25,29 +25,25 @@ export default function Wim() {
 
       <div className="text-1">
         <p> Stock taking is an essential undertaking for any profitable business.</p>
-        <p>This app helps simplify the process</p>
-      </div>
-
-      <div className="project-img-wrapper img-btn-container wim-image-wrapper">
-        <img className="wim-image" width="500" height="406" src={wim} alt="landing page for the wim project" />
-      </div>
-
-      {/* <p className="text-2">This app helps simplify the process</p> */}
-
-      <div className="btn-wrapper">
-        <div className="links-btn-wrapper">
-          <button className="link-btn">
-            <FaGithub />
-          </button>
-          <button className="link-btn">
-            <FaArrowUpRightFromSquare />
-          </button>
-        </div>
-
+        <p>This app helps simplify the process.</p>
         <div className="learn-more-wrapper">
           <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>
             Learn more
           </motion.button>
+        </div>
+      </div>
+
+      <div className="wim-image-wrapper img-btn-wrapper">
+        <div className="wim-inner-img-wrapper">
+          <img className="wim-image" width="500" height="406" src={wim} alt="landing page for the wim project" />
+          <div className="links-wrapper">
+            <a href="https://wim-front-end.netlify.app/" className="link" aria-label="link to live version of warehouse inventory app">
+              <FaArrowUpRightFromSquare />
+            </a>
+            <a href="https://github.com/Fishamble/wim" className="link" aria-label="link to github of warehouse inventory project">
+              <FaGithub />
+            </a>
+          </div>
         </div>
       </div>
 
@@ -57,26 +53,3 @@ export default function Wim() {
     </motion.aside>
   );
 }
-
-//  <h3>WIM</h3>
-//  <p>WIM is an inventory tool, which allows for the tracking of sales, purchases and realtime stock levels for products.</p>
-//  <p>The front end is built using react, typescript and react-table and is hosted on netlify.</p>
-//  <p>The back end utilises Node/Express.js and a mySQL relational database and is hosted on a digital ocean VPS. </p>
-
-// <div className="overlay"></div>
-// <div className="overlay-text">
-//   <h4>WIM</h4>
-//   <p>A tool for logging and tracking stock levels</p>
-// </div>
-// <div className="btn-island">
-//   <form name="gitWim" target="_blank">
-//     <button className="highlight-btn github-btn" type="submit" formAction="https://github.com/Fishamble/wim">
-//       GitHub
-//     </button>
-//   </form>
-//   <form name="liveWim" target="_blank">
-//     <button className="highlight-btn live-btn" type="submit" formAction="https://wim-front-end.netlify.app/">
-//       Live
-//     </button>
-//   </form>
-// </div>
