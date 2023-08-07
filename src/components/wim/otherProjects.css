@@ -16,7 +16,7 @@
   /* background-color: blue; */
 }
 
-.jsquestions {
+.js-questions {
   grid-area: 5/1/6/2;
   /* background-color: orange; */
 }
@@ -27,11 +27,8 @@
 
 @media (min-width: 1000px) {
   .other-projects-wrapper {
-    /* display: grid; */
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 0fr 1fr;
     grid-template-columns: 1fr 1fr;
-    /* grid-gap: 1rem; */
-    /* background-color: bisque; */
   }
 
   .wim {
@@ -40,12 +37,12 @@
   }
 
   .jpmazon {
-    grid-area: 2/1/3/2;
-    background-color: blue;
+    grid-area: 3/1/4/2;
+    /* background-color: blue; */
   }
 
-  .jsquestions {
-    grid-area: 2/2/3/4;
-    background-color: orange;
+  .js-questions {
+    grid-area: 3/2/4/4;
+    /* background-color: orange; */
   }
 }

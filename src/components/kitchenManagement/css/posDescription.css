@@ -1,5 +1,8 @@
 .kitchen-man {
   margin: 1rem;
+  margin-bottom: 2rem;
+  /* margin-top: 2rem; */
+
 }
 
 .lrg-question {
@@ -73,7 +76,7 @@
   font-size: 1em;
   border: 0;
   background: none;
-  margin-right:1em;
+  margin-right: 1em;
 }
 
 @media (min-width: 450px) {
@@ -90,6 +93,13 @@
     padding: 1rem;
     margin-top: 1rem;
     width: 240px;
+  }
+}
+
+@media (min-width: 550px) {
+  .kitchen-man {
+    margin-bottom: 3rem;
+    /* padding-top: 3rem; */
   }
 }
 
@@ -193,7 +203,7 @@
     border: 1px solid var(--clr-backGround2);
     padding-left: 1rem;
     border-radius: 10px 0 0 10px;
-    color:var(--clr-backGround2);
+    color: var(--clr-backGround2);
   }
 
   .img-text-container p span {

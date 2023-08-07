@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
 import jsQuestions from "../../assets/images/questionsApp.webp";
 import { animate, initialRight } from "../../misc/animateValues";
+import './jsQuestions.css';
 
 export default function Jsquestions() {
   return (
-    <motion.aside initial={initialRight} whileInView={animate} viewport={{ once: true }} className="other-projects-container jsquestions">
+    <motion.aside initial={initialRight} whileInView={animate} viewport={{ once: true }} className="other-projects-container js-questions">
       <div className="op-description">
         <h3>Coding questions</h3>
         <p>

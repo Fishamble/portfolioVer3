@@ -1,16 +1,11 @@
-
-.jpmazon {
+.js-questions {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-.jpmazon img {
-    width :70%;
-}
-
 @media (min-width: 550px) {
 
-    .jpmazon {
+    .js-questions {
         margin-top: 3rem;
         margin-bottom: 3rem;
     }
