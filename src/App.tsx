@@ -18,8 +18,9 @@ function App() {
         <KitchenManagement />
         <hr />
         <div className="other-projects-wrapper">
+        
           <Wim />
-          <hr />
+          <hr className="wim-hr" />
           <Jpmazon />
           <hr />
           <Jsquestions />

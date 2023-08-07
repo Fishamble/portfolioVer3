@@ -1,6 +1,7 @@
 .wim {
   margin: 1rem;
-  margin-top: 2rem;
+
+  margin-top: 0rem;
   margin-bottom: 2rem;
 
   display: grid;
@@ -212,9 +213,8 @@
 
 @media (min-width: 550px) {
   .wim {
-    margin-top:3rem;
+    /* margin-top:3rem; */
     margin-bottom: 3rem;
-
   }
 
   .quote-box {
@@ -251,10 +251,15 @@
   .text-inner-1 {
     display: none;
   }
-  
+
   .wim-image-wrapper {
     /* background-color: brown; */
     margin-bottom: 1rem;
+  }
+
+  .wim-image {
+    border: 7px solid black;
+    outline: 2px solid var(--clr-four);
   }
 }
 
@@ -284,5 +289,12 @@
     /* object-fit:contain; */
     display: flex;
     justify-content: end;
+  }
+}
+
+@media (min-width: 1200px) {
+  .text {
+    grid-area: 5/2/11/7;
+    margin: 0rem;
   }
 }

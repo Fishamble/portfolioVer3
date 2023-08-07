@@ -7,12 +7,14 @@ import "./css/km-grid.css";
 
 export default function KitchenManagement() {
   return (
-    <div className="kitchen-man">
-      {/* <h2>sfdgfsd</h2> */}
-      <PosDescription />
-      <PosImage />
-      <KitchenDisplayImage />
-      <YouTube />
-    </div>
+    <>
+      <h2>Kitchen Management</h2>
+      <div className="kitchen-man">
+        <PosDescription />
+        <PosImage />
+        <KitchenDisplayImage />
+        <YouTube />
+      </div>
+    </>
   );
 }
