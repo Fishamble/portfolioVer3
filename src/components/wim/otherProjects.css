@@ -4,6 +4,12 @@ h2 {
   font-weight: 900;
   padding: 1rem;
   font-size: 2rem;
+  color:white;
+  /* letter-spacing: -1px; */
+
+  /* font-family: ; */
+  /* font-family: "Roboto", sans-serif; */
+
 }
 
 .wh-heading {
@@ -13,7 +19,7 @@ h2 {
 
 .other-projects-wrapper {
   display: grid;
-  grid-template-rows: auto 1fr 0fr 1fr 0fr 1fr;
+  grid-template-rows: auto 1fr 0fr auto 0fr auto;
   grid-template-columns: 1fr;
   grid-gap: 1rem;
   overflow: hidden;
@@ -60,7 +66,7 @@ h2 {
 @media (min-width: 1000px) {
   .other-projects-wrapper {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr 0fr 1fr;
+    grid-template-rows: auto 1fr 0fr auto;
   }
 
   .wim-hr {

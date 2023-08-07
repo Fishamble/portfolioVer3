@@ -7,7 +7,7 @@ export default function Jsquestions() {
   return (
     <motion.aside initial={initialRight} whileInView={animate} viewport={{ once: true }} className="other-projects-container js-questions">
       <div className="op-description">
-        <h3>Coding questions</h3>
+        <h2>Coding questions</h2>
         <p>
           An app for testing coding related questions. I used react for the front end and firestore for the back. Aloing the way I implemented the
           react context API for state management and the intersection observer API for infinite scrolling.

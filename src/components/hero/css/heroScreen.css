@@ -59,6 +59,7 @@
 .sailboat-wrapper {
   /* background-color: #ff0000; */
   background-color: var(--clr-seaBlue);
+
   z-index: 2;
 
   /* width: fit-content; */

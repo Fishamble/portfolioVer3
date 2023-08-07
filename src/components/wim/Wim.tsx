@@ -12,7 +12,7 @@ export default function Wim() {
   return (
     <>
       <h2 className="wh-heading">Warehouse inventory</h2>
-      <motion.aside initial={initialLeft} whileInView={animate} viewport={{ once: true }} className="other-projects-container wim">
+      <motion.aside initial={initialLeft} whileInView={animate} viewport={{ once: true }} className="wim">
         <div className="background"></div>
         <div className="quote-wrapper">
           <blockquote className="quote-box">

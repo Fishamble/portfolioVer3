@@ -8,7 +8,7 @@ export default function Jpmazon() {
   return (
     <motion.aside initial={initialLeft} whileInView={animate} viewport={{ once: true }} className="other-projects-container jpmazon">
       <div className="op-description">
-        <h3 className="project-heading">JPMazon</h3>
+        <h2 className="project-heading">JPMazon</h2>
         <p>
           An amazon clone built using react. I used dummyjson.com, which provides fake product data and images through REST endpoints, to create
           responsive product pages and a basic shopping cart.
