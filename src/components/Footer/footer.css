@@ -1,6 +1,9 @@
 .footer {
   background-color: var(--clr-one);
-  color: var(--clr-seven);
+  background-color: var(--clr-seaBlue);
+
+  /* color: var(--clr-seven); */
+  color: white;
   margin-top: 2rem;
   box-shadow: 5px 5px 10px var(--clr-seven);
 }
@@ -18,7 +21,7 @@
   list-style-type: none;
   padding: 0.4em;
   margin-top: 1rem;
-  border: 1px solid var(--clr-four);
+  border: 1px solid white;
   border-radius: 50px;
 }
 
@@ -26,16 +29,15 @@
   color: inherit;
   width: 60%;
   height: 60%;
-
 }
-
 
 .footer li {
   height: 2em;
   width: 2em;
   border-radius: 999px;
-  border: 1px solid var(--clr-four);
-  color: var(--clr-four);
+  border: 1px solid white;
+  /* color: var(--clr-four); */
+  color: white;
 
   display: flex;
   align-items: center;
@@ -43,8 +45,10 @@
 }
 
 .footer li:hover {
-  border: 1px solid var(--clr-four);
-  color: var(--clr-one);
+  border: 1px solid black;
+  /* color: var(--clr-one); */
+  color: black;
+
   background-color: var(--clr-four);
 }
 
@@ -56,7 +60,9 @@
 
 .footer .digger {
   font-size: 3em;
-  color: var(--clr-four);
+  /* color: var(--clr-four); */
+  color: white;
+
   display: flex;
   justify-content: center;
   padding: 0.3em;
