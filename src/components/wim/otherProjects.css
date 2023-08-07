@@ -31,12 +31,12 @@
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     /* grid-gap: 1rem; */
-    background-color: bisque;
+    /* background-color: bisque; */
   }
 
   .wim {
     grid-area: 1/1/2/4;
-    background-color: aqua;
+    /* background-color: aqua; */
   }
 
   .jpmazon {

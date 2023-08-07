@@ -23,9 +23,18 @@ export default function Wim() {
         </blockquote>
       </div>
 
-      <div className="text-1">
+      <div className="text">
         <p> Stock taking is an essential undertaking for any profitable business.</p>
-        <p>This app helps simplify the process.</p>
+        <p className="text-inner-1">This app helps simplify the process.</p>
+        <p className="text-inner-2">
+          This app allows for the monitoring of individual inventory items. Users input sales and purchases, and the stock levels are automatically
+          adjusted as orders are placed, picked and delivered.
+        </p>
+
+        <p className="text-inner-3">
+          My objectives for this project were to build a Node.js API that integrated with a MySQL database, and ultimately deploy it to a Linux
+          server.
+        </p>
         <div className="learn-more-wrapper">
           <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>
             Learn more
@@ -35,14 +44,16 @@ export default function Wim() {
 
       <div className="wim-image-wrapper img-btn-wrapper">
         <div className="wim-inner-img-wrapper">
-          <img className="wim-image" width="500" height="406" src={wim} alt="landing page for the wim project" />
-          <div className="links-wrapper">
-            <a href="https://wim-front-end.netlify.app/" className="link" aria-label="link to live version of warehouse inventory app">
-              <FaArrowUpRightFromSquare />
-            </a>
-            <a href="https://github.com/Fishamble/wim" className="link" aria-label="link to github of warehouse inventory project">
-              <FaGithub />
-            </a>
+          <div className="img-container">
+            <img className="wim-image" width="500" height="406" src={wim} alt="landing page for the wim project" />
+            <div className="links-wrapper">
+              <a href="https://wim-front-end.netlify.app/" className="link" aria-label="link to live version of warehouse inventory app">
+                <FaArrowUpRightFromSquare />
+              </a>
+              <a href="https://github.com/Fishamble/wim" className="link" aria-label="link to github of warehouse inventory project">
+                <FaGithub />
+              </a>
+            </div>
           </div>
         </div>
       </div>

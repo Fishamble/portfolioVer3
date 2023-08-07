@@ -5,20 +5,32 @@
 
 .links-wrapper {
   position: absolute;
+  /* top: 50%; */
   bottom: 2em;
   left: 2em;
-  width: 10em;
+  /* width: 10em; */
+  height: 10em;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  border: 2px solid black;
+}
+
+.img-container {
+  display: inline-block;
+  /* background-color: aqua; */
+  position: relative;
 }
 
 .link {
   font-size: 2em;
-  border: 0.15em solid white;
+  border: 0.15em solid var(--clr-backGroundWSmoke);
   background: 0;
-  color: white;
+  color: var(--clr-backGroundWSmoke);
   transition: transform 0.2s ease;
-  background-color: var(--clr-seaBlue);
+  background-color: var(--clr-backGround2);
   padding: 0.5em;
   border-radius: 50%;
 }
