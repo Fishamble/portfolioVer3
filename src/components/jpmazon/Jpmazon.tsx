@@ -10,10 +10,13 @@ export default function Jpmazon() {
       <h2>JPMazon</h2>
       <div className="op-flex-wrap">
         <p>
-          An amazon clone built using react. I used dummyjson.com, which provides fake product data and images through REST endpoints, to create
-          responsive product pages and a basic shopping cart.
+          This amazon clone was my first React project. I learned the fundamentals of building dynamic user interfaces using React components, state,
+          and props.
         </p>
-
+        <p>
+          I used dummyjson.com, which provides fake product data and images through REST endpoints, to create responsive product pages and a basic
+          shopping cart.
+        </p>
         <img width="500" height="406" src={JpMazon} alt="landing page for the jpmazon project" />
       </div>
     </motion.aside>

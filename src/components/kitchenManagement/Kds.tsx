@@ -11,7 +11,7 @@ export default function KitchenDisplayImage() {
       <div className="img-btn-wrapper">
         <div className="img-container">
           <img width="500" height="253" src={kitchenDisplay} alt="kitchen display system screenshot, with five orders open on screen" />
-          <div className="links-wrapper">
+          <span className="links-wrapper">
             <a href="https://kitchendisplay.netlify.app/" className="link" aria-label="link to live version of kitchen display app">
               <FaArrowUpRightFromSquare />
             </a>
@@ -19,7 +19,7 @@ export default function KitchenDisplayImage() {
             <a href="https://github.com/Fishamble/kitchen_back_end" className="link" aria-label="link to github of kitchen display project">
               <FaGithub />
             </a>
-          </div>
+          </span>
         </div>
       </div>
     </motion.div>
