@@ -1,5 +1,13 @@
 .kitchen-man {
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
+  overflow: hidden;
+  /* padding:.2rem; */
+  
+  /* margin: 0.5rem;
+  margin-top: 0;
+  margin-bottom:2rem; */
+  margin: 0 .5rem 2rem .5rem;
+
 }
 
 .lrg-question {
@@ -95,7 +103,7 @@
 
 @media (min-width: 550px) {
   .kitchen-man {
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
     /* padding-top: 3rem; */
   }
 }
@@ -109,8 +117,16 @@
 }
 
 @media (min-width: 700px) {
+  .kitchen-man {
+    /* margin:1rem; */
+    /* margin: 1rem; */
+    /* margin-top: 0; */
+  margin: 0 1rem 3rem 1rem;
+
+  }
+
   .kitchen-man .description {
-    opacity: 1;
+    /* opacity: 1; */
   }
 
   .description {

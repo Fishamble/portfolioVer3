@@ -8,6 +8,7 @@
   max-width: 280px;
   margin: 1rem auto;
   /* margin: 0 auto; */
+  border:2px solid black;
 }
 
 .op-flex-wrap {
@@ -24,6 +25,7 @@
 
 .other-projects-container {
   margin: 1rem;
+  margin-top:0;
 }
 
 .other-projects-container p {
@@ -35,6 +37,11 @@
     /* margin-top: 3rem; */
     /* margin-bottom: 3rem; */
     flex-direction: row;
+  }
+
+  .op-flex-wrap p {
+    margin:1rem;
+    margin-top: 0;
   }
 
   .other-projects-container img {

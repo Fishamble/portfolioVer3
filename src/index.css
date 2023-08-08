@@ -3,7 +3,7 @@
 :root {
   font-family: "Roboto", sans-serif;
   background-color: var(--clr-backGround1);
-  --max-width: 1600px;
+  --max-width: 1500px;
 
   --clr-seaBlue: hsl(210, 100%, 50%);
   --clr-text: #263238;
