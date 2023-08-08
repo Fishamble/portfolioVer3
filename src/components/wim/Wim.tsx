@@ -38,28 +38,22 @@ export default function Wim() {
             server.
           </p>
           <div className="learn-more-wrapper">
+            <a href="https://wim-front-end.netlify.app/" className="op-link-icon" aria-label="link to live version of warehouse inventory app">
+              <FaArrowUpRightFromSquare />
+            </a>
+            <a href="https://github.com/Fishamble/wim" className="op-link-icon" aria-label="link to github of warehouse inventory project">
+              <FaGithub />
+            </a>
             <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>
               Learn more
             </motion.button>
           </div>
         </div>
 
-        <div className="wim-image-wrapper img-btn-wrapper">
-          <div className="wim-inner-img-wrapper">
-            <div className="img-container">
-              <img className="wim-image" width="500" height="406" src={wim} alt="landing page for the wim project" />
-              <div className="links-wrapper">
-                <a href="https://wim-front-end.netlify.app/" className="link" aria-label="link to live version of warehouse inventory app">
-                  <FaArrowUpRightFromSquare />
-                </a>
-                <a href="https://github.com/Fishamble/wim" className="link" aria-label="link to github of warehouse inventory project">
-                  <FaGithub />
-                </a>
-              </div>
-            </div>
-          </div>
+      
+        <div className="wim-image-wrapper">
+          <img className="wim-image" width="500" height="406" src={wim} alt="landing page for the wim project" />
         </div>
-
         <div className="stock-img-wrapper">
           <img className="stock-img" width="640" height="427" src={stockTake} alt="men with clipboard counting stock" />
         </div>

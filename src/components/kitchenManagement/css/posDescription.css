@@ -2,12 +2,11 @@
   /* margin-bottom: 2rem; */
   overflow: hidden;
   /* padding:.2rem; */
-  
+
   /* margin: 0.5rem;
   margin-top: 0;
   margin-bottom:2rem; */
-  margin: 0 .5rem 2rem .5rem;
-
+  margin: 0 0.5rem 2rem 0.5rem;
 }
 
 .lrg-question {
@@ -84,6 +83,11 @@
   margin-right: 1em;
 }
 
+.learn-button-wrapper .link {
+  font-size: 1rem;
+  margin-right:1rem;
+}
+
 @media (min-width: 450px) {
   .sml-question {
     font-size: 1.1rem;
@@ -106,6 +110,9 @@
     /* margin-bottom: 3rem; */
     /* padding-top: 3rem; */
   }
+  .inner-text {
+    font-size:1.2rem;
+  }
 }
 
 @media (min-width: 600px) {
@@ -121,12 +128,16 @@
     /* margin:1rem; */
     /* margin: 1rem; */
     /* margin-top: 0; */
-  margin: 0 1rem 3rem 1rem;
-
+    margin: 0 1rem 3rem 1rem;
   }
 
   .kitchen-man .description {
     /* opacity: 1; */
+  }
+
+  .learn-button-wrapper .link {
+    font-size: 1.3rem;
+    /* margin-right:1rem; */
   }
 
   .description {
@@ -137,9 +148,23 @@
     font-size: 1.5rem;
     margin-right: 10%;
   }
+
+  .inner-text {
+    font-size:1.3rem;
+  }
 }
 
 @media (min-width: 1000px) {
+ 
+  .learn-button-wrapper {
+    align-items: center;
+    padding:0;
+  }
+ 
+  .learn-button-wrapper .learn-button {
+    white-space: nowrap
+  }
+
   .waiter-img {
     width: 100%;
   }
@@ -228,15 +253,39 @@
     padding-right: 1rem;
   }
 }
+@media (min-width: 1100px) {
+
+.inner-text {
+  font-size:1.4rem;
+}
+}
 
 @media (min-width: 1200px) {
   .inner-text > p {
     padding: 0.5rem;
   }
+
+  .inner-text {
+    font-size:1rem;
+  }
+
+
 }
 
 @media (min-width: 1400px) {
   .inner-text > p {
     padding: 1rem;
+  }
+
+  .inner-text {
+    font-size:1.2rem;
+  }
+}
+
+@media (min-width: 1450px) {
+
+
+  .inner-text {
+    font-size:1.4rem;
   }
 }
