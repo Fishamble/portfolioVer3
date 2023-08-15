@@ -7,6 +7,7 @@
 
   --clr-seaBlue: hsl(210, 100%, 50%);
   --clr-textGrey: #263238;
+  --clr-textGreyLight: #324a5f;
 
   --clr-backGround1: rgb(173, 216, 230);
   --clr-backGround2: rgb(27, 42, 65);
@@ -24,16 +25,6 @@
   --clr-six: #ffff00;
   --clr-seven: #e8f0ff;
 
-  /* background: radial-gradient(circle, var(--clr-seaBlue) 10%, hsl(210, 100%, 40%) 93%); */
-
-  /* --section-br: linear-gradient(
-    90deg,
-    rgba(173, 216, 230, 1) 41%,
-    rgba(205, 229, 237, 1) 72%,
-    rgba(211, 231, 238, 1) 86%,
-    rgba(215, 245, 245, 1) 100%
-  ); */
-  /* background-color: var(--clr-seaBlue); */
 }
 
 .section-container {
@@ -42,44 +33,14 @@
   margin: auto;
 
   box-shadow: 5px 5px 10px var(--clr-one);
-  /* background-color: var(--clr-backGroundWSmoke);
-   */
-  /* background: var(--section-br); */
-  /* background: rgb(69,19,229); */
-  /* background: linear-gradient(90deg, rgba(69,19,229,1) 20%, rgba(64,17,212,0.9103290974592962) 46%, rgba(70,19,230,1) 100%); */
   background: hsl(202, 100%, 60%);
   background: linear-gradient(90deg, hsl(202, 98%, 65%) 6%, hsl(202, 100%, 60%) 87%);
 }
 
 hr {
-  /* color: var(--clr-four); */
-  /* border-top: 2px solid var(--clr-four); */
   width: 90%;
-  /* height: 3rem; */
   margin: 0 auto;
 }
-
-/* h2,
-  h3 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-  } */
-
-/* h2 {
-    padding-top: 2rem;
-    font-size: 2.5rem;
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: inherit;
-  }
-   */
-
-/* @media (min-width: 410px) {
-    h2 {
-      font-size: 3.5rem;
-    }
-  } */
 
 /*------------------------------------------------- CSS resets */
 /* Box sizing rules */

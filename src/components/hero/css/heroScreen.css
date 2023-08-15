@@ -6,8 +6,7 @@
 .sailing {
   font-size: 3rem;
   grid-area: 18/13/19/18;
-  /* background-color: brown; */
-  /* overflow: hidden;   */
+
 }
 
 .hero {
@@ -23,17 +22,13 @@
 
 .name {
   grid-area: 3/2/13/9;
-  /* background-color: bisque; */
 }
 
 .name h1 {
   font-weight: 600;
-  /* width: 30rem; */
   line-height: 1;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px;
-  /* color: var(--clr-seaBlue); */
-  /* background-color: blue; */
   position: relative;
 }
 
@@ -42,10 +37,7 @@
 }
 
 .blurb-wrapper {
-  /* grid-area: 11/12/17/18; */
   grid-area: 3/2/13/9;
-
-  /* background-color: aqua; */
   overflow: hidden;
   font-size: 0.25em;
   position: relative;
@@ -56,12 +48,8 @@
 }
 
 .sailboat-wrapper {
-  /* background-color: #ff0000; */
   background-color: var(--clr-seaBlue);
-
   z-index: 2;
-
-  /* width: fit-content; */
   position: relative;
   height: 30vh;
   display: flex;
@@ -91,8 +79,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: aqua; */
-  /* height: 100%; */
   flex-grow: 1;
   color: var(--clr-text);
 }
@@ -108,20 +94,13 @@
 .sailboat {
   position: absolute;
   font-size: 7rem;
-  /* width: 20px; */
-  /* height: 200px; */
-  /* background-color: red; */
-  /* border-radius: 10px; */
   display: flex;
   align-items: center;
   justify-content: center;
   width: 200px;
   top: -97px;
   left: calc(50vw - 100px);
-  /* transform: translate(50%); */
   animation: sailAnimation 2s ease-in-out infinite;
-  /* color:burlywood; */
-  /* color: var(--clr-text); */
   z-index: 1;
 }
 

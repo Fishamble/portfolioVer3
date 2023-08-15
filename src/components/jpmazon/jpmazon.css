@@ -2,9 +2,7 @@
   width: 90%;
   max-width: 350px;
   margin: 1rem auto;
-  /* margin: 0 auto; */
   border: 2px solid black;
-  /* outline: 2px solid var(--clr-four); */
   box-shadow: 5px 5px 10px var(--clr-one);
 }
 
@@ -24,12 +22,10 @@
 }
 
 .link-icons-wrapper div {
-  /* color: white; */
   font-size: 1rem;
   display: flex;
   justify-content: space-around;
   width: 7rem;
-  /* margin-right: 1rem; */
   margin: 0;
   margin-top: 1rem;
 }
@@ -70,22 +66,19 @@
   }
 
   .op-img-wrapper img {
-    width: 100%;
+    width: 90%;
     max-width: auto;
     margin: auto ;
   }
 
   .op-description-wrapper {
     width: 50%;
-    /* height:50%; */
   }
 
   .op-img-wrapper {
-    /* height: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: antiquewhite; */
     padding-left: 1rem;
   }
 }

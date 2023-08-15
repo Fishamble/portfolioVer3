@@ -11,7 +11,7 @@ export default function Jsquestions() {
       <div className="op-flex-wrap">
         <div className="op-description-wrapper">
           <p>
-            I built this app to test my coding knowlegde. I expanded my understanding of React, implementing the React context API for state
+            I built this app to test my coding knowledge. I expanded my understanding of React, implementing the React context API for state
             management and the intersection observer API for infinite scrolling.
           </p>
           <p>I opted for Firestore for the backend due to its user-friendly nature and efficient real-time synchronization.</p>

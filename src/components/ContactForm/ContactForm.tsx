@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { FormEvent, useRef } from "react";
 import Swal from "sweetalert2";
-// import { animationContactFormBorder, contactFormAnimation } from "../../Assets/AnimateValues";
 import { animationContactFormBorder, contactFormAnimation } from "../../misc/animateValues";
 import "./contactForm.css";
 

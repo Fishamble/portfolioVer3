@@ -1,16 +1,12 @@
 .contact {
   padding: 0;
-  /* background-color: var(--clr-backGroundWSection); */
-  /* background: var(--section-br); */
-  /* background: rgb(2, 106, 167); */
-  /* background: linear-gradient(90deg, rgba(2, 106, 167, 1) 16%, rgba(0, 121, 191, 1) 87%); */
-  background: hsl(202, 100%, 60%);
-  background: linear-gradient(90deg, hsl(202, 98%, 73%) 16%, hsl(202, 100%, 60%) 87%);
-
   margin: 2rem auto;
   max-width: var(--max-width);
   box-shadow: 5px 5px 10px var(--clr-one);
   color: var(--clr-textGrey);
+
+  background: hsl(202, 100%, 60%);
+  background: linear-gradient(90deg, hsl(202, 98%, 65%) 6%, hsl(202, 100%, 60%) 87%);
 }
 
 .contact .heading {
@@ -42,13 +38,13 @@
 }
 
 .contact input {
-  padding: 1rem;
-  color: white;
+  padding-left: .5rem;
+  color: var(--clr-textGreyLight);
 }
 
 .contact textarea {
   padding: 1rem;
-  color: white;
+  color: var(--clr-textGreyLight);
 }
 
 .contact .label-wrapper {
@@ -69,7 +65,7 @@ label {
   height: 2rem;
   background: transparent;
   border: none;
-  border-bottom: 2px solid blue;
+  border-bottom: 1px solid blue;
   outline: none;
   transition: all 2s ease-out;
 }
@@ -77,8 +73,7 @@ label {
 .contact .contact-name:focus,
 .email:focus,
 .message:focus {
-  outline: 3px solid var(--clr-four);
-  border: 1px solid var(--clr-four);
+  border: 1px solid blue;
 }
 
 .contact .message {
@@ -89,21 +84,26 @@ label {
   width: 50%;
   height: 3rem;
   max-width: 350px;
-  background-color: var(--clr-three);
-  border: 2px solid var(--clr-seven);
-  color: var(--clr-seven);
+
+  background-color: var(--clr-backGround2);
+  border: 2px solid var(--clr-backGround1);
+
+  color: var(--clr-backGround1);
   border-radius: 10px;
   font-weight: 600;
-  box-shadow: 5px 5px 10px var(--clr-one);
+  box-shadow: 5px 5px 10px black;
 }
 
 .contact .btn-send:hover,
 .btn-send:focus {
-  background-color: var(--clr-seven);
-  border: 2px solid var(--clr-three);
-  color: var(--clr-three);
+  background-color: var(--clr-backGround1);
+
+  border: 2px solid var(--clr-backGround2);
+
+  color: var(--clr-backGround2);
+
   cursor: pointer;
-  outline: 2px solid var(--clr-seven);
+  /* outline: 2px solid var(--clr-backGround2); */
 }
 
 textarea {
