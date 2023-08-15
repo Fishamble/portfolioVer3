@@ -1,10 +1,13 @@
 .hero-wrapper {
-  /* height: 100vh; */
-  /* background-color: #add8e6; */
-  /* background-color: red; */
-
   font-size: 4rem;
   overflow: hidden;
+}
+
+.sailing {
+  font-size: 3rem;
+  grid-area: 18/13/19/18;
+  /* background-color: brown; */
+  /* overflow: hidden;   */
 }
 
 .hero {
@@ -13,18 +16,13 @@
   height: 70vh;
   display: grid;
   grid-gap: 1rem;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* color: var(--clr-text); */
-  /* position: relative; */
-  /* background-color: yellow; */
+
   grid-template-columns: repeat(18, 1fr);
   grid-template-rows: repeat(18, 1fr);
 }
 
 .name {
-  grid-area: 3/2/19/9;
+  grid-area: 3/2/13/9;
   /* background-color: bisque; */
 }
 
@@ -44,7 +42,8 @@
 }
 
 .blurb-wrapper {
-  grid-area: 11/12/17/18;
+  /* grid-area: 11/12/17/18; */
+  grid-area: 3/2/13/9;
 
   /* background-color: aqua; */
   overflow: hidden;

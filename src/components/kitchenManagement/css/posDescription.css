@@ -84,8 +84,10 @@
 }
 
 .learn-button-wrapper .link {
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin-right:1rem;
+  padding:.3em;
+
 }
 
 @media (min-width: 450px) {

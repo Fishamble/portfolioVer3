@@ -15,22 +15,22 @@ export default function HeroScreen() {
             John Paul <br />
             Larkin
           </h1>
-          <p>Sailing the full stack.</p>
         </div>
-        <div className="blurb-wrapper">
+        {/* <div className="blurb-wrapper">
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0, transition: { delay: 0.7, duration: 1, ease: "easeOut" } }}>
             Im excited by the idea of transforming business processes into working software solutions.
           </motion.div>
-        </div>
+        </div> */}
+      <motion.p initial={{ y: 30, opacity:0 }} animate={{ y: 0, opacity:1, transition: { duration: 1,delay:1 } }} className="sailing">Sailing the full stack.</motion.p>
       </div>
-      
+
       <div className="sailboat-wrapper">
         <DevIcons />
         <div className="sailboat">
           <RiSailboatFill />
         </div>
         <div className="projects-arrow">
-          <motion.span initial={{opacity:0}} animate={{opacity:1,transition:{delay:2,duration:2}}}>
+          <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 2, duration: 2 } }}>
             Featured projects
             <motion.span initial={{ y: -5 }} animate={{ y: 5, transition: { duration: 1, repeat: Infinity, repeatType: "reverse" } }}>
               <FaArrowDown />
