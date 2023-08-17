@@ -40,10 +40,20 @@ export default function Wim() {
 
           <div className="wim-links-wrapper">
             <div className="wim-links">
-              <a href="https://wim-front-end.netlify.app/" className="op-link-icon" aria-label="link to live version of warehouse inventory app">
+              <a
+                href="https://wim-front-end.netlify.app/"
+                className="op-link-icon"
+                target="_blank"
+                aria-label="link to live version of warehouse inventory app"
+              >
                 <FaArrowUpRightFromSquare />
               </a>
-              <a href="https://github.com/Fishamble/wim" className="op-link-icon" aria-label="link to github of warehouse inventory project">
+              <a
+                href="https://github.com/Fishamble/wim"
+                className="op-link-icon"
+                target="_blank"
+                aria-label="link to github of warehouse inventory project"
+              >
                 <FaGithub />
               </a>
               {/* <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>

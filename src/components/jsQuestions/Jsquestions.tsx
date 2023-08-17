@@ -18,11 +18,21 @@ export default function Jsquestions() {
 
           <div className="link-icons-wrapper">
             <div>
-              <a href="https://jsqapp.netlify.app/" className="op-link-icon" aria-label="link to live version of point of js questions app">
+              <a
+                href="https://jsqapp.netlify.app/"
+                className="op-link-icon"
+                target="_blank"
+                aria-label="link to live version of point of js questions app"
+              >
                 <FaArrowUpRightFromSquare />
               </a>
 
-              <a href="https://github.com/Fishamble/QuestionApp" className="op-link-icon" aria-label="link to github of js questions project">
+              <a
+                href="https://github.com/Fishamble/QuestionApp"
+                className="op-link-icon"
+                target="_blank"
+                aria-label="link to github of js questions project"
+              >
                 <FaGithub />
               </a>
             </div>

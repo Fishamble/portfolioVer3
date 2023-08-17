@@ -23,10 +23,20 @@ export default function Jpmazon() {
 
           <div className="link-icons-wrapper">
             <div>
-              <a href="https://jpmazon.netlify.app/" className="op-link-icon" aria-label="link to live version of point of jpmazon app">
+              <a
+                href="https://jpmazon.netlify.app/"
+                className="op-link-icon"
+                target="_blank"
+                aria-label="link to live version of point of jpmazon app"
+              >
                 <FaArrowUpRightFromSquare />
               </a>
-              <a href="https://github.com/Fishamble/jpmazonV2" className="op-link-icon" aria-label="link to github of jpmazon project">
+              <a
+                href="https://github.com/Fishamble/jpmazonV2"
+                className="op-link-icon"
+                target="_blank"
+                aria-label="link to github of jpmazon project"
+              >
                 <FaGithub />
               </a>
             </div>
