@@ -7,6 +7,10 @@
 
   --clr-seaBlue: hsl(210, 100%, 50%);
   --clr-textGrey: #263238;
+
+
+
+
   --clr-textGreyLight: #324a5f;
 
   --clr-backGround1: rgb(173, 216, 230);
@@ -24,7 +28,6 @@
   --clr-five: #ee589e;
   --clr-six: #ffff00;
   --clr-seven: #e8f0ff;
-
 }
 
 .section-container {
@@ -41,6 +44,7 @@ hr {
   width: 90%;
   margin: 0 auto;
 }
+
 
 /*------------------------------------------------- CSS resets */
 /* Box sizing rules */

@@ -12,16 +12,16 @@ export default function HeroScreen() {
       <div className="hero">
         <div className="name">
           <h1>
-            John Paul <br />
-            Larkin
+            <span>John Paul</span>
+            <br />
+            <span>Larkin</span>
           </h1>
+          <p className="blurb">Transforming business processes into working software solutions.</p>
         </div>
-        {/* <div className="blurb-wrapper">
-          <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0, transition: { delay: 0.7, duration: 1, ease: "easeOut" } }}>
-            Im excited by the idea of transforming business processes into working software solutions.
-          </motion.div>
-        </div> */}
-      <motion.p initial={{ y: 30, opacity:0 }} animate={{ y: 0, opacity:1, transition: { duration: 1,delay:1 } }} className="sailing">Sailing the full stack.</motion.p>
+
+        <motion.p initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1, transition: { duration: 1, delay: 1 } }} className="sailing">
+          Sailing the full stack.
+        </motion.p>
       </div>
 
       <div className="sailboat-wrapper">

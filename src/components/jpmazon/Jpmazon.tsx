@@ -8,7 +8,7 @@ import "./jpmazon.css";
 // import TextScrollHighlight from "../MainProject/TextScrollHighlight";
 export default function Jpmazon() {
   return (
-    <motion.aside initial={initialLeft} whileInView={animate} viewport={{ once: true }} className="other-projects-container jpmazon">
+    <motion.section initial={initialLeft} whileInView={animate} viewport={{ once: true }} className="other-projects-container jpmazon">
       <h2>JPMazon</h2>
       <div className="op-flex-wrap">
         <div className="op-description-wrapper">
@@ -36,6 +36,6 @@ export default function Jpmazon() {
           <img width="500" height="406" src={JpMazon} alt="landing page for the jpmazon project" />
         </div>
       </div>
-    </motion.aside>
+    </motion.section>
   );
 }

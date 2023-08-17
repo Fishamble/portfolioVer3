@@ -61,7 +61,7 @@ export default function ContactForm() {
         </div>
 
         <form name="contactF" className="form" method="POST" data-netlify="true" onSubmit={handleSubmit} ref={formRef}>
-          <input type="hidden" name="form-name" value="contactF" />
+          <input type="hidden" id='contactF' name="form-name" value="contactF" />
 
           <motion.div className="inputs" whileInView={contactFormAnimation.animate} initial={contactFormAnimation.initial}>
             <div className="label-wrapper">
@@ -74,7 +74,6 @@ export default function ContactForm() {
               className="email"
               placeholder="youremail@corp.com"
               required
-              tabIndex={1}
               whileInView={animationContactFormBorder.animate}
               initial={animationContactFormBorder.initial}
             />
@@ -90,7 +89,6 @@ export default function ContactForm() {
               id="name"
               className="contact-name"
               placeholder="Optional"
-              tabIndex={2}
               whileInView={animationContactFormBorder.animate}
               initial={animationContactFormBorder.initial}
             />
@@ -104,14 +102,14 @@ export default function ContactForm() {
               placeholder="Start typing..."
               className="message"
               name="message"
-              tabIndex={3}
+              id='message'
               initial={animationContactFormBorder.initial}
               whileInView={animationContactFormBorder.animate}
             ></motion.textarea>
           </motion.div>
 
           <div className="inputs">
-            <button type="submit" className="btn-send" tabIndex={4}>
+            <button type="submit" className="btn-send">
               Send
             </button>
           </div>

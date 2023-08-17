@@ -37,20 +37,22 @@ export default function Wim() {
             My objectives for this project were to build a Node.js API that integrated with a MySQL database, and ultimately deploy it to a Linux
             server.
           </p>
-          <div className="learn-more-wrapper">
-            <a href="https://wim-front-end.netlify.app/" className="op-link-icon" aria-label="link to live version of warehouse inventory app">
-              <FaArrowUpRightFromSquare />
-            </a>
-            <a href="https://github.com/Fishamble/wim" className="op-link-icon" aria-label="link to github of warehouse inventory project">
-              <FaGithub />
-            </a>
-            <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>
+
+          <div className="wim-links-wrapper">
+            <div className="wim-links">
+              <a href="https://wim-front-end.netlify.app/" className="op-link-icon" aria-label="link to live version of warehouse inventory app">
+                <FaArrowUpRightFromSquare />
+              </a>
+              <a href="https://github.com/Fishamble/wim" className="op-link-icon" aria-label="link to github of warehouse inventory project">
+                <FaGithub />
+              </a>
+              {/* <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>
               Learn more
-            </motion.button>
+            </motion.button> */}
+            </div>
           </div>
         </div>
 
-      
         <div className="wim-image-wrapper">
           <img className="wim-image" width="500" height="406" src={wim} alt="landing page for the wim project" />
         </div>

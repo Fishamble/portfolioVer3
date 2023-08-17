@@ -33,14 +33,14 @@ export default function Clouds() {
 
   return (
     <div className="cloud-wrapper">
-      <motion.img width="254" height="141" initial={initial1} animate={animate1} className="cloud1" src={cloud} alt="a fluffy white cloud" />
-      <motion.img width="254" height="141" initial={initial2} animate={animate2} className="cloud2" src={cloud} alt="a fluffy white cloud" />
-      <motion.img width="254" height="141" initial={initial3} animate={animate3} className="cloud3" src={cloud} alt="a fluffy white cloud" />
-      <motion.img width="254" height="141" initial={initial4} animate={animate4} className="cloud4" src={cloud} alt="a fluffy white cloud" />
-      <motion.img width="254" height="141" initial={initial5} animate={animate5} className="cloud5" src={cloud} alt="a fluffy white cloud" />
-      <motion.img width="254" height="141" initial={initial6} animate={animate6} className="cloud6" src={cloud} alt="a fluffy white cloud" />
-      <motion.img width="254" height="141" initial={initial7} animate={animate7} className="cloud7" src={cloud} alt="a fluffy white cloud" />
-      <motion.img width="254" height="141" initial={initial8} animate={animate8} className="cloud8" src={cloud} alt="a fluffy white cloud" />
+      <motion.img width="254" height="141" initial={initial1} animate={animate1} className="cloud1" src={cloud} />
+      <motion.img width="254" height="141" initial={initial2} animate={animate2} className="cloud2" src={cloud} />
+      <motion.img width="254" height="141" initial={initial3} animate={animate3} className="cloud3" src={cloud} />
+      <motion.img width="254" height="141" initial={initial4} animate={animate4} className="cloud4" src={cloud} />
+      <motion.img width="254" height="141" initial={initial5} animate={animate5} className="cloud5" src={cloud} />
+      <motion.img width="254" height="141" initial={initial6} animate={animate6} className="cloud6" src={cloud} />
+      <motion.img width="254" height="141" initial={initial7} animate={animate7} className="cloud7" src={cloud} />
+      <motion.img width="254" height="141" initial={initial8} animate={animate8} className="cloud8" src={cloud} />
     </div>
   );
 }

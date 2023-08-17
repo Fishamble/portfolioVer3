@@ -30,23 +30,18 @@ export default function PosDescription() {
               {/* <br /> Faster service, happier customers. */}
             </p>
             <div className="learn-button-wrapper">
-            <a href="https://kitchenpos.netlify.app/" className="link" aria-label="link to live version of point of sale app">
-              <FaArrowUpRightFromSquare />
-            </a>
-            <a href="https://github.com/Fishamble/kitchenpos" className="link" aria-label="link to github of POS project">
-              <FaGithub />
-
-
-            </a>
-           
-
-            <a href="https://kitchendisplay.netlify.app/" className="link" aria-label="link to live version of kitchen display app">
-              <FaArrowUpRightFromSquare />
-            </a>
-
-              <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>
+              <a href="https://kitchenpos.netlify.app/" className="link" aria-label="link to live version of point of sale app">
+                <FaArrowUpRightFromSquare />
+              </a>
+              <a href="https://github.com/Fishamble/kitchenpos" className="link" aria-label="link to github of POS project">
+                <FaGithub />
+              </a>
+              <a href="https://kitchendisplay.netlify.app/" className="link" aria-label="link to live version of kitchen display app">
+                <FaArrowUpRightFromSquare />
+              </a>
+              {/* <motion.button className="learn-button" initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1, duration: 2 } }}>
                 Learn more
-              </motion.button>
+              </motion.button> */}
             </div>
           </div>
         </div>
