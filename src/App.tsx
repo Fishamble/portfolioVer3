@@ -13,22 +13,23 @@ import "./misc/imageOverlay.css";
 function App() {
   return (
     <>
-      <HeroScreen />
-      <section className="section-container">
-        <KitchenManagement />
-        <hr />
-        <div className="other-projects-wrapper">
-        
-          <Wim />
-          <hr className="wim-hr" />
-          <Jpmazon />
+      <main>
+        <HeroScreen />
+        <section className="section-container">
+          <KitchenManagement />
           <hr />
-          <Jsquestions />
-        </div>
-      </section>
+          <div className="other-projects-wrapper">
+            <Wim />
+            <hr className="wim-hr" />
+            <Jpmazon />
+            <hr />
+            <Jsquestions />
+          </div>
+        </section>
 
-      <About />
-      <ContactForm />
+        <About />
+        <ContactForm />
+      </main>
       <Footer />
     </>
   );
