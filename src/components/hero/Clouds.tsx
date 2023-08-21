@@ -9,7 +9,6 @@ export default function Clouds() {
     positionNumber *= Math.round(Math.random()) ? 1 : -1;
 
     const positionAsString = `${String(positionNumber)}vw`;
-    console.log(positionAsString);
     return positionAsString;
   };
 

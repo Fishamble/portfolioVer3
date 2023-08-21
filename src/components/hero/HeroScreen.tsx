@@ -16,7 +16,14 @@ export default function HeroScreen() {
             <br />
             <span>Larkin</span>
           </h1>
-          <p className="blurb">Transforming business processes into working software solutions.</p>
+          <div className="blurb">
+            <p>Transforming business processes into working software solutions.</p>
+            <div className="btn-contact-wrap">
+              <a className="button-53"  href='mailto:johnplarkin@gmail.com'>
+                Email me
+              </a>
+            </div>
+          </div>
         </div>
 
         <motion.p initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1, transition: { duration: 1, delay: 1 } }} className="sailing">

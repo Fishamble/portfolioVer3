@@ -4,11 +4,14 @@ Hi and welcome to my portfolio.
 </p>
 <p >
 My name is John paul Larkin. I initially undertook web development as a hobby, soon realising I had a natural aptitude, and an inexhaustible curiosity for how it all worked. This developed into full time, self-directed study, employing the work ethic I developed during my years in the catering and healthcare industries. I thoroughly enjoy the technical challenge programming presents, developing new skills and implementing them in real world applications.
+</p>
+
+<P>
 You can view a live version of this portfolio at <a href="https://www.jplarkin.ie">www.jplarkin.ie</a>
 </p>
 
 <P>This portfolio has been reincarnated on numerous occassions.
-<a href="https://portfolio-jpl.netlify.app/">Here</a> is a previous one which I still quite like.
+<a href="https://portfolio-jpl.netlify.app/">Here</a> is a previous version which I still quite like.
 </P>
 
 <h2  align="center">Reach me on</h2>

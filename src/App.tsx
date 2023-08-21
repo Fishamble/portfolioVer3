@@ -26,7 +26,6 @@ function App() {
             <Jsquestions />
           </div>
         </section>
-
         <About />
         <ContactForm />
       </main>
