@@ -8,8 +8,8 @@ import "./css/km-grid.css";
 export default function KitchenManagement() {
   return (
     <>
-      <h2>Kitchen Management</h2>
-      <div className="kitchen-man">
+      <h2 id="kitchen-man">Kitchen Management</h2>
+      <div className="kitchen-man" >
         <PosDescription />
         <PosImage />
         <KitchenDisplayImage />

@@ -59,30 +59,6 @@
   flex-direction: column;
 }
 
-@media (min-width: 500px) {
-  .hero-wrapper {
-    font-size: 5rem;
-  }
-}
-
-@media (min-width: 700px) {
-  .hero-wrapper {
-    font-size: 6rem;
-  }
-}
-
-@media (min-width: 1000px) {
-  .hero-wrapper {
-    font-size: 7rem;
-  }
-}
-
-@media (min-width: 1300px) {
-  .hero-wrapper {
-    font-size: 9rem;
-  }
-}
-
 .projects-arrow {
   font-size: 0.3em;
   display: flex;
@@ -98,6 +74,11 @@
 
 .projects-arrow span * {
   padding-left: 10px;
+}
+
+.arrow {
+  cursor: pointer;
+  color: var(--clr-text);
 }
 
 .sailboat {
@@ -150,7 +131,7 @@
   display: flex;
   font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: .7rem;
+  font-size: 0.7rem;
   font-weight: 700;
   justify-content: center;
   line-height: 1rem;
@@ -190,10 +171,40 @@
   left: 2px;
 }
 
+@media (min-width: 500px) {
+  .hero-wrapper {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .hero-wrapper {
+    font-size: 6rem;
+  }
+}
+
 @media (min-width: 768px) {
   .button-53 {
     padding: 0.75rem 3rem;
     font-size: 1.25rem;
     max-width: 240px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hero-wrapper {
+    font-size: 7rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .hero-wrapper {
+    font-size: 9rem;
+  }
+}
+
+@media (max-height: 750px) {
+  .btn-contact-wrap {
+    justify-content: flex-start;
   }
 }

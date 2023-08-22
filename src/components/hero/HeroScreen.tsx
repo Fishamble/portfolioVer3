@@ -25,6 +25,7 @@ export default function HeroScreen() {
             </div>
           </div>
         </div>
+        
 
         <motion.p initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1, transition: { duration: 1, delay: 1 } }} className="sailing">
           Sailing the full stack.
@@ -39,9 +40,9 @@ export default function HeroScreen() {
         <div className="projects-arrow">
           <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 2, duration: 2 } }}>
             Featured projects
-            <motion.span initial={{ y: -5 }} animate={{ y: 5, transition: { duration: 1, repeat: Infinity, repeatType: "reverse" } }}>
+            <motion.a href='#kitchen-man' className="arrow" initial={{ y: -5 }} animate={{ y: 5, transition: { duration: 1, repeat: Infinity, repeatType: "reverse" } }}>
               <FaArrowDown />
-            </motion.span>
+            </motion.a>
           </motion.span>
         </div>
       </div>

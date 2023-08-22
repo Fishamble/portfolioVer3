@@ -29,6 +29,9 @@
   color: inherit;
   width: 60%;
   height: 60%;
+  position: relative;
+  left:2px;
+  top:1px;
 }
 
 .footer li {

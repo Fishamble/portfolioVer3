@@ -8,9 +8,6 @@
   --clr-seaBlue: hsl(210, 100%, 50%);
   --clr-textGrey: #263238;
 
-
-
-
   --clr-textGreyLight: #324a5f;
 
   --clr-backGround1: rgb(173, 216, 230);
@@ -45,6 +42,9 @@ hr {
   margin: 0 auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 /*------------------------------------------------- CSS resets */
 /* Box sizing rules */
